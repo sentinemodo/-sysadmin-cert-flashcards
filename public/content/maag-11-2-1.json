@@ -1,0 +1,747 @@
+{
+  "book": {
+    "id": "maag-11-2-1",
+    "title": "Infor M3 Analytics Administration Guide 11.2.1",
+    "description": "Memory-card content derived from MAAG 11.2.1 (Document MAAG_11.2.1_W_53848 / MAAG_11.2.1_W_02). Online help may use newer paths; verify against your Infor release.",
+    "order": 1
+  },
+  "chapters": [
+    {
+      "id": "ch01-about",
+      "bookId": "maag-11-2-1",
+      "title": "Chapter 1: About this guide",
+      "order": 1,
+      "examQuestionCount": 2
+    },
+    {
+      "id": "ch02-analytics-overview",
+      "bookId": "maag-11-2-1",
+      "title": "Chapter 2: Analytics overview",
+      "order": 2,
+      "examQuestionCount": 5
+    },
+    {
+      "id": "ch03-monitoring-jobs",
+      "bookId": "maag-11-2-1",
+      "title": "Chapter 3: Monitoring jobs",
+      "order": 3,
+      "examQuestionCount": 6
+    },
+    {
+      "id": "ch04-setting-up-users",
+      "bookId": "maag-11-2-1",
+      "title": "Chapter 4: Setting up users",
+      "order": 4,
+      "examQuestionCount": 2
+    },
+    {
+      "id": "ch05-securing-cubes-dimensions",
+      "bookId": "maag-11-2-1",
+      "title": "Chapter 5: Securing cubes and dimensions",
+      "order": 5,
+      "examQuestionCount": 8
+    },
+    {
+      "id": "ch06-configuring-m3-analytics",
+      "bookId": "maag-11-2-1",
+      "title": "Chapter 6: Configuring M3 Analytics",
+      "order": 6,
+      "examQuestionCount": 5
+    },
+    {
+      "id": "ch07-auto-publishing-business-context",
+      "bookId": "maag-11-2-1",
+      "title": "Chapter 7: Auto-publishing of Infor Business Context",
+      "order": 7,
+      "examQuestionCount": 2
+    },
+    {
+      "id": "appendix-a-troubleshooting",
+      "bookId": "maag-11-2-1",
+      "title": "Appendix A: Troubleshooting",
+      "order": 8,
+      "examQuestionCount": 6
+    },
+    {
+      "id": "appendix-b-bi-security",
+      "bookId": "maag-11-2-1",
+      "title": "Appendix B: Configuring Infor BI Security",
+      "order": 9,
+      "examQuestionCount": 4
+    }
+  ],
+  "cards": [
+    {
+      "id": "maag-11-2-1/ch01-about/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch01-about",
+      "question": "Who is the Infor M3 Analytics Administration Guide written for?",
+      "goodAnswer": "Administrators, business consultants, system engineers, and super users who maintain and configure M3 Analytics to monitor business performance.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — About this guide",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/zpo1573024384507.html"
+        }
+      ],
+      "tags": ["audience", "scope"],
+      "difficulty": 1
+    },
+    {
+      "id": "maag-11-2-1/ch01-about/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch01-about",
+      "question": "Where does Infor publish related M3 Analytics documentation (per this guide)?",
+      "goodAnswer": "In the product documentation section of the Infor Xtreme Support portal. The guide also lists companion documents such as the M3 Analytics Installation Guide, industry Technical/Product Guides, Infor OS Administration Guide, Business Vault guides, BI OLAP Server Administration Guide, and M3 Core Administration Guide.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Related documents",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/zpo1573024384507.html"
+        },
+        {
+          "label": "Infor Support (Xtreme)",
+          "url": "https://www.infor.com/support"
+        }
+      ],
+      "tags": ["documentation"],
+      "difficulty": 1
+    },
+    {
+      "id": "maag-11-2-1/ch02-analytics-overview/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch02-analytics-overview",
+      "question": "What does “M3 Analytics” refer to in this guide, and where does it get its data?",
+      "goodAnswer": "M3 Analytics is the content of the Infor BI Application Studio package. It collects data from M3 Business Engine (M3 BE).",
+      "docLinks": [
+        {
+          "label": "M3 Analytics — Overview",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/fqe1573024386897.html"
+        }
+      ],
+      "tags": ["architecture", "source-system"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch02-analytics-overview/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch02-analytics-overview",
+      "question": "What are KPIs in the M3 Analytics context, and what role do they play?",
+      "goodAnswer": "Key Performance Indicators (KPIs) are future-oriented measures that point to critical areas of business performance that need improvement.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics — Overview",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/fqe1573024386897.html"
+        }
+      ],
+      "tags": ["kpi", "concepts"],
+      "difficulty": 1
+    },
+    {
+      "id": "maag-11-2-1/ch02-analytics-overview/03",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch02-analytics-overview",
+      "question": "What is a Business Measurement Model (BMM), and what does it produce?",
+      "goodAnswer": "BMMs extract and transform source data into an analytical data model with fact tables and dimension tables. The resulting star schema can be analyzed as-is or used as a source for an OLAP cube.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics — Components",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/fqe1573024386897.html"
+        }
+      ],
+      "tags": ["bmm", "data-model"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch02-analytics-overview/04",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch02-analytics-overview",
+      "question": "How do OLAP cubes relate to dimensions and time-based analysis in M3 Analytics?",
+      "goodAnswer": "OLAP cubes summarize data along defined dimensions and hierarchies. They include dimensions for time and time-series analysis so users can compare years or periods at various levels. Cube dimensions and hierarchies may need adjustment during implementation.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics — OLAP",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/fqe1573024386897.html"
+        }
+      ],
+      "tags": ["olap", "dimensions"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch02-analytics-overview/05",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch02-analytics-overview",
+      "question": "What is the “entity” concept involving widgets in M3 Analytics?",
+      "goodAnswer": "A widget is associated with a detail report and gives deep integration to Self-Service through an Ad-Hoc jump. These components belong to the entity concept; selection forwarding is provided within an entity.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics — Entities and widgets",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/fqe1573024386897.html"
+        }
+      ],
+      "tags": ["widgets", "self-service"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch02-analytics-overview/06",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch02-analytics-overview",
+      "question": "What happens to long category names (15+ characters) on charts in widgets?",
+      "goodAnswer": "If a category name is 15 characters or longer, a substring (from Nth character to Nth character) is replaced with an ellipsis (three dots), which can affect chart visibility.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics — Widgets",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/fqe1573024386897.html"
+        }
+      ],
+      "tags": ["widgets", "ui"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch02-analytics-overview/07",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch02-analytics-overview",
+      "question": "List the software components that must be installed and configured for M3 Analytics (per the Administration Guide).",
+      "goodAnswer": "Infor M3 BE; Infor Business Vault Data Warehouse Designer; Infor Business Vault Enterprise Edition; Infor Business Intelligence including the OLAP Server; Infor Operating Service (OS). Release compatibility is stated in the M3 Analytics Release Notes.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics — Required products",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/fqe1573024386897.html"
+        }
+      ],
+      "tags": ["prerequisites", "installation"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch03-monitoring-jobs/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch03-monitoring-jobs",
+      "question": "Describe the ETL process stages from source systems to analytics consumption as explained for monitoring.",
+      "goodAnswer": "Extract pulls operational data into a staging database. Transform/filter uses compiled DWD components from the DWD catalog. Load places data into dimensions and fact tables in the data warehouse. OLAP cubes are created in Business Vault Analytic Modeling for requested views. Both ETL jobs and publications are part of the overall process.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide (monitoring / ETL)",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        },
+        {
+          "label": "Infor documentation — search Data Warehouse Designer Administrator Guide",
+          "url": "https://docs.infor.com/"
+        }
+      ],
+      "tags": ["etl", "dwd"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch03-monitoring-jobs/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch03-monitoring-jobs",
+      "question": "What is the purpose of the Data Flow Validation model in M3 Analytics?",
+      "goodAnswer": "It monitors the ETL process: record counts, execution time, exception records, and data flow. It supports comparing runs (average, min, max duration) and provides current/previous counts and ETL execution details.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Data Flow Validation",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["etl", "monitoring"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch03-monitoring-jobs/03",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch03-monitoring-jobs",
+      "question": "When must the Data Flow Validation model run relative to other models, and what does it capture?",
+      "goodAnswer": "It must run only after all other models have finished. It only captures information on compiled objects. Statistics are stored in the Data Validation fact table with dimensions ModelObjects, ModelHierarchy, and ExceptionTracker.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["data-flow-validation", "dependencies"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch03-monitoring-jobs/04",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch03-monitoring-jobs",
+      "question": "What does ExceptionTracker track, and what does status 255 on dimension records mean?",
+      "goodAnswer": "ExceptionTracker tracks exception handling in the warehouse. DWD can add keys for missing dimension data; records are inserted with status 255. Status 255 indicates a data issue in M3 that may be corrected on the next ETL run; detailed analysis may show fewer rows later if data was fixed.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Exception handling",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["exceptions", "data-quality"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch03-monitoring-jobs/05",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch03-monitoring-jobs",
+      "question": "What does the DataValidation_MinMaxDays variable control?",
+      "goodAnswer": "How many days of data are retained in the model. For example, if set to 5, five days of records are kept in Stage1 for a given object and the oldest is deleted.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["data-flow-validation", "configuration"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch03-monitoring-jobs/06",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch03-monitoring-jobs",
+      "question": "How do you monitor publications in Business Vault, and what does the Process Report show?",
+      "goodAnswer": "Log in to Business Vault, select Monitoring > Publications Monitor, open Details to view the Process Report. It lists published objects and error codes if any. Further detail is in Business Vault Analytical Modeling User Guide and OLAP SDK error references.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Publications",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["publications", "business-vault"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch03-monitoring-jobs/07",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch03-monitoring-jobs",
+      "question": "Where do you open the OLAP Jobs report in the BI front end, and what does it display?",
+      "goodAnswer": "In the Infor BI dashboard, on the M3 Analytics tab, select OLAP Administration > Jobs. The report reads the OLAP jobs error log database and lists load-from-source jobs with type, run time, and success/failure; you can filter by group, type, and status and drill into errors.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — OLAP jobs",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["olap", "monitoring"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch04-setting-up-users/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch04-setting-up-users",
+      "question": "Which tool authorizes users to Infor Data Warehouse Designer, and where should you look for Business Vault and BI user authorization?",
+      "goodAnswer": "SQL Server Management Studio is used to authorize users to Infor Data Warehouse Designer. For Business Vault application users, see the Infor Business Vault Administration Guide; for Infor BI authorization, see the Infor Business Intelligence Installation Guide.",
+      "docLinks": [
+        {
+          "label": "Infor documentation — search Business Vault Administration Guide",
+          "url": "https://docs.infor.com/"
+        },
+        {
+          "label": "M3 Analytics Administration Guide — Users",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["security", "dwd"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch04-setting-up-users/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch04-setting-up-users",
+      "question": "What authentication is used upon installation for BI (per this guide)?",
+      "goodAnswer": "Only basic authentication is used upon installation.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Setting up users",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["authentication", "installation"],
+      "difficulty": 1
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "At which four levels can Infor BI content be secured?",
+      "goodAnswer": "Restrict access to an application; restrict access to dashboards; restrict access to Application Studio reports; restrict access to OLAP data.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — BI security levels",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["bi-security", "rbac"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "What can users with standard M3A application roles (e.g. M3A Sales User) do with dashboards, and what can they not do?",
+      "goodAnswer": "They can view dashboards and reports, browse folders, and create new dashboards, but they cannot modify existing dashboards.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Application roles",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["application-roles", "permissions"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/03",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "Which reports and areas are standard M3 Analytics application roles *not* allowed to access?",
+      "goodAnswer": "Application roles cannot access Dataflow Validation reports, OLAP Administration reports, Permission Manager reports, or the configuration pages. Users needing those should be in the general Administrator role (or equivalent administrative access).",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Role restrictions",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["application-roles", "admin"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/04",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "Name the three types of OLAP access cubes (TABACC, DAC, MDAC) and what each controls.",
+      "goodAnswer": "TABACC: cube access control—permissions per cube; includes a dimension listing cubes; every OLAP database has a TABACC cube. DAC: dimension access control—access to dimension members; manually created in Analytic Modeler. MDAC: multi-dimension data access control—access to individual cells; manually created.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — OLAP access cubes",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["olap", "tabacc", "dac", "mdac"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/05",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "In access cubes, what OLAP permission values correspond to 0, 1, 2, and empty in the database?",
+      "goodAnswer": "0 = no access; 1 = read; 2 = write; empty = default (configured in the database as Read, Write, or None).",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — OLAP permissions",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["olap", "permissions"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/06",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "What are DAC Pass permission values 8, 9, and 10, and how does inheritance work for Pass on parent elements?",
+      "goodAnswer": "8 = Pass No access; 9 = Pass Read; 10 = Pass Write (DAC only). If Pass is applied to an element with children, children inherit until another permission is encountered. Passed permissions use values 16=None, 17=Read, 18=Write in the database.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — DAC",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["dac", "inheritance"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/07",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "What are the three steps to set up dimension security in Business Vault?",
+      "goodAnswer": "1) Create a dimension security access cube in Business Vault. 2) Configure the dimension to use that access cube. 3) Maintain permissions within the dimension access cube.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Dimension security",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["dimensions", "security"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/08",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "Where do you maintain TABACC and other access-cube permissions in the BI UI (high-level path)?",
+      "goodAnswer": "Permission Manager > Manage OLAP Permissions: select data source and access cube; use cell icons or toolbar permission, and Roles / Select elements to control visible column dimension members.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Manage OLAP Permissions",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["permission-manager", "olap"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch05-securing-cubes-dimensions/09",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch05-securing-cubes-dimensions",
+      "question": "For cloud vs classic BI 11, where are OLAP global access permissions defined?",
+      "goodAnswer": "Cloud: when creating application roles in BI Application Manager. Classic Infor BI 11: when creating OLAP Permission Management roles in Repository Administration. (AdministratorRole members skip permission checks.)",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — OLAP global permissions",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["cloud", "olap", "roles"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch06-configuring-m3-analytics/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch06-configuring-m3-analytics",
+      "question": "Who can access the M3 Analytics Configuration Page and Drillback Configuration Page by default?",
+      "goodAnswer": "By default they are not accessible to any of the standard application roles delivered with M3 Analytics.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Configuration",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["configuration", "security"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch06-configuring-m3-analytics/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch06-configuring-m3-analytics",
+      "question": "List example settings configurable from the M3 Analytics Configuration Page (any four).",
+      "goodAnswer": "Examples from the guide: whether Manufacturing Period is week-based; for Equipment, whether Equipment Period is week-based; Simple vs Class hierarchy for Accounting Dimension 2/Cost Center; Account dimension hierarchy (Simple, Class, Group); target values for Receivable Index (AR metrics, default 1.00) and Invc and Recon (AP metrics, default 25.00).",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Configuration Page",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["configuration", "parameters"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch06-configuring-m3-analytics/03",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch06-configuring-m3-analytics",
+      "question": "What does the Drillback Configuration Page configure?",
+      "goodAnswer": "The URL of the M3 BE instance used for drillback actions; customization of drillback actions. Delivered drillback reports support up to four actions to M3 BE programs; each action can be active/inactive.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Drillback",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["drillback", "m3-be"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch06-configuring-m3-analytics/04",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch06-configuring-m3-analytics",
+      "question": "Why should you avoid customizing certain AP/AR drillback default actions that use FieldNames?",
+      "goodAnswer": "Assigning FieldNames uses a different approach than other parameters; customizing those defaults may break the report. See the industry Technical Guide for FieldNames detail.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Drillback FieldNames",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["drillback", "ap-ar"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch06-configuring-m3-analytics/05",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch06-configuring-m3-analytics",
+      "question": "Give the primary M3 BE programs used for Sales Orders drillback (as listed in the guide).",
+      "goodAnswer": "OIS100 (OOHEAD, option 5, panel E); OIS120 (OOHEAD, option 5, panel E); OIS130 (OOLINE, panel B); OIS300 (OOHEAD, panel B, view F73)—with the key fields specified in the guide for each.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Drillback actions",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["drillback", "sales"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/ch07-auto-publishing-business-context/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch07-auto-publishing-business-context",
+      "question": "What is Infor Business Context auto-publishing in Ming.le, and what UI effect does enabling it have?",
+      "goodAnswer": "Business Context messages are required for In-Context widgets. Auto-publishing publishes them on all panels running in Ming.le when enabled by an administrator. Enabling the setting removes Infor Business Context from the Context Publisher menu.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Business Context",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["ming.le", "business-context"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/ch07-auto-publishing-business-context/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "ch07-auto-publishing-business-context",
+      "question": "Where do you enable automatic publishing of Infor Business Context in Ming.le (menu path)?",
+      "goodAnswer": "Application menu: Administration Tools > Administration Tools > H5 Settings tab. In Application settings, enable “Enable automatic publishing of Infor Business Context in Ming.le”, then Save.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["ming.le", "configuration"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/appendix-a-troubleshooting/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-a-troubleshooting",
+      "question": "If an ETL job fails in the User Transformation step for period dimensions with “Procedure has no parameters and arguments were supplied” (Error 8146), what is the documented fix related to DWD 11.3.004?",
+      "goodAnswer": "Apply the latest fix pack for DWD 11.3.004 (issue specific to that version) and regenerate the ETL job; alternatively, without the fix pack, edit the job step Command and remove the 'F' parameter from the exec call (e.g. exec [xFD__Dim_PD_ManufacturingPeriod] instead of ...'F').",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Troubleshooting ETL",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["etl", "dwd", "errors"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/appendix-a-troubleshooting/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-a-troubleshooting",
+      "question": "What causes “Invalid object name <Dim_Period_Locale>” during ETL, and what is the solution?",
+      "goodAnswer": "Locale tables were not installed in the datamarts database during BMM installation. Reinstall all BMMs per the M3 Analytics Installation Guide.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Installation Guide (BMMs)",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/"
+        }
+      ],
+      "tags": ["etl", "locale", "bmm"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/appendix-a-troubleshooting/03",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-a-troubleshooting",
+      "question": "OLAP error status 26 and 65 in publication troubleshooting—cause and fix?",
+      "goodAnswer": "26: dimension could not be found—dimension publication not completed successfully; run dimension publication in Business Vault. 65: dimension element could not be found—same root cause; run dimension publication in Business Vault.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — OLAP errors",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["olap", "publication"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/appendix-a-troubleshooting/04",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-a-troubleshooting",
+      "question": "OLAP error status 299—cause and solution?",
+      "goodAnswer": "A NULL value exists in a field used in the hierarchy. Ensure the Data Flow Validation job runs successfully after the ETL job (see Installation Guide — Create the M3 Analytics ETL job).",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["olap", "hierarchy", "null"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/appendix-a-troubleshooting/05",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-a-troubleshooting",
+      "question": "Publication does not end immediately—two documented causes and fixes?",
+      "goodAnswer": "1) OLAP Target inactive—activate it in Business Vault Analytic Modeling > Publication Targets (M3 Analytics Target). 2) Standard vs target DB connections misconfigured—verify JDBC/ODBC URLs, drivers, server/database names under Administration > Database Connections, test and save both connections.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Publication troubleshooting",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["publication", "connectivity"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/appendix-a-troubleshooting/06",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-a-troubleshooting",
+      "question": "For the Finance widget “Top 5 FAM Functions YTD”, which Business Context entity and M3 BE field must be present?",
+      "goodAnswer": "Entity InforAccountingTransactionEntryType with sequence 1 mapped to M3 BE field FNCN.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Business Context troubleshooting",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["business-context", "finance"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/appendix-b-bi-security/01",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-b-bi-security",
+      "question": "How are M3 Analytics application roles bundled for assignment to Windows, IFS, or basic users?",
+      "goodAnswer": "Application roles are bundled in User Groups that can be assigned to those user types. See the BI Guide for Security and Roles for detail.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — BI Security appendix",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["bi", "roles", "user-groups"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/appendix-b-bi-security/02",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-b-bi-security",
+      "question": "High-level steps to register Windows Authentication (or another method) in BI Repository Administration.",
+      "goodAnswer": "Open Repository Administration > Repository Registrations; connect to the repository; User Management > Authentication Systems > Register; choose the system (e.g. Windows) and OK; for Infor Federation Services, set Server URL, user name, and password in Properties.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Authentication",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["authentication", "repository"],
+      "difficulty": 2
+    },
+    {
+      "id": "maag-11-2-1/appendix-b-bi-security/03",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-b-bi-security",
+      "question": "What is an “application role” in terms of underlying BI permission layers?",
+      "goodAnswer": "Model roles exist on Project Permission Management, Report Catalog, Dashboard Catalog, and OLAP Permission Management (OPM). When developing in Repository Administration, you manually create roles with the same name on all levels; they merge into Application Roles in BI Services (except the OLAP BulkImport role). The application role is the same-named role across all those levels.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Creating application roles",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["application-roles", "repository"],
+      "difficulty": 3
+    },
+    {
+      "id": "maag-11-2-1/appendix-b-bi-security/04",
+      "bookId": "maag-11-2-1",
+      "chapterId": "appendix-b-bi-security",
+      "question": "What minimum permission must each custom role have at the node where it is created?",
+      "goodAnswer": "Each role must have at least View permission at the node where it is created.",
+      "docLinks": [
+        {
+          "label": "M3 Analytics Administration Guide — Application roles note",
+          "url": "https://docs.infor.com/m3analytics/latest/en-us/maag/default.html"
+        }
+      ],
+      "tags": ["permissions", "repository"],
+      "difficulty": 2
+    }
+  ]
+}

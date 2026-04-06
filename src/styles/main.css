@@ -1,0 +1,104 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f6f7f9;
+  --fg: #1a1d26;
+  --muted: #5c6478;
+  --accent: #2563eb;
+  --error-bg: #fef2f2;
+  --error-fg: #991b1b;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111318;
+    --fg: #eef0f5;
+    --muted: #9aa3b5;
+    --accent: #60a5fa;
+    --error-bg: #2a1212;
+    --error-fg: #fecaca;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.shell {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+}
+
+header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.35rem;
+}
+
+.subtitle {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  transition: opacity 0.2s ease;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.site-nav a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.site-nav a:hover {
+  opacity: 0.85;
+}
+
+.view h2 {
+  margin-top: 0;
+}
+
+.book-list {
+  padding-left: 1.25rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-weight: normal;
+}
+
+.banner-error {
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.35rem;
+  background: var(--error-bg);
+  color: var(--error-fg);
+}
+
+.actions button,
+.view button {
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.35rem;
+  border: 1px solid var(--muted);
+  background: transparent;
+  color: var(--fg);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.actions button:hover,
+.view button:hover {
+  background: color-mix(in srgb, var(--fg) 6%, transparent);
+}
