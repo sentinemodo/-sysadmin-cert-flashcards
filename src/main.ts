@@ -1,44 +1,38 @@
 import './styles/main.css';
+import { subscribeRerender } from './appBus';
 import { loadDeckContent } from './content/loadContent';
 import { db } from './db/flashcardsDb';
 import { parseHashRoute, subscribeHashChange } from './router';
 import type { DeckContent } from './types/content';
-import { renderExamPlaceholder } from './views/examPlaceholder';
+import { renderExam } from './views/exam';
+import { renderHistory } from './views/history';
 import { renderHome } from './views/home';
 import { renderNotFound } from './views/notFound';
-import { renderSimplePlaceholder } from './views/simplePlaceholder';
-import { renderStudyPlaceholder } from './views/studyPlaceholder';
+import { renderSettings } from './views/settings';
+import { renderStudy } from './views/study';
 
 const CONTENT_URL = '/content/maag-11-2-1.json';
 
 let deck: DeckContent | null = null;
 let loadError: string | null = null;
 
-function renderRoute(outlet: HTMLElement, subtitle: HTMLElement): void {
+async function renderRoute(outlet: HTMLElement, subtitle: HTMLElement): Promise<void> {
   const route = parseHashRoute();
-  switch (route) {
+  switch (route.kind) {
     case 'home':
       renderHome(outlet, deck, loadError);
       break;
     case 'study':
-      renderStudyPlaceholder(outlet);
+      await renderStudy(outlet, deck, loadError, route);
       break;
     case 'exam':
-      renderExamPlaceholder(outlet);
+      await renderExam(outlet, deck, loadError, route);
       break;
     case 'history':
-      renderSimplePlaceholder(
-        outlet,
-        'History',
-        'TODO(architecture): overview §7 — list ExamResult rows with filters.',
-      );
+      await renderHistory(outlet, deck, loadError, route);
       break;
     case 'settings':
-      renderSimplePlaceholder(
-        outlet,
-        'Settings',
-        'TODO(architecture): overview §7 — algorithm caps, export/import, wipe data.',
-      );
+      await renderSettings(outlet);
       break;
     default:
       renderNotFound(outlet);
@@ -63,7 +57,7 @@ async function bootstrap(): Promise<void> {
   }
 
   void db.open().catch(() => {
-    /* TODO(architecture): surface IndexedDB errors in settings UI */
+    /* surfaced via settings / browser */
   });
 
   const shell = document.createElement('div');
@@ -101,10 +95,11 @@ async function bootstrap(): Promise<void> {
   mount.appendChild(shell);
 
   const refresh = (): void => {
-    renderRoute(mainEl, subtitle);
+    void renderRoute(mainEl, subtitle);
   };
 
   subscribeHashChange(refresh);
+  subscribeRerender(refresh);
   refresh();
 
   try {

@@ -47,11 +47,11 @@ export function renderHome(
   actions.className = 'actions';
   const studyBtn = document.createElement('button');
   studyBtn.type = 'button';
-  studyBtn.textContent = 'Study (stub)';
+  studyBtn.textContent = 'Study';
   studyBtn.addEventListener('click', () => navigateHash('/study'));
   const examBtn = document.createElement('button');
   examBtn.type = 'button';
-  examBtn.textContent = 'Exam (stub)';
+  examBtn.textContent = 'Exam';
   examBtn.addEventListener('click', () => navigateHash('/exam'));
   actions.append(studyBtn, document.createTextNode(' '), examBtn);
   section.appendChild(actions);

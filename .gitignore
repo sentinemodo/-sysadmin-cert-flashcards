@@ -12,3 +12,4 @@ blob-report/
 # Logs / caches
 npm-debug.log*
 .vite/
+*.tsbuildinfo

@@ -102,3 +102,121 @@ header h1 {
 .view button:hover {
   background: color-mix(in srgb, var(--fg) 6%, transparent);
 }
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.chapter-list li {
+  margin: 0.5rem 0;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--muted) 25%, transparent);
+}
+
+.chapter-list a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.cram-toggle {
+  display: block;
+  margin: 0.75rem 0 1rem;
+  cursor: pointer;
+}
+
+.flashcard {
+  padding: 1rem 1.1rem;
+  border-radius: 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--muted) 35%, transparent);
+  background: color-mix(in srgb, var(--fg) 3%, transparent);
+  margin-bottom: 1rem;
+}
+
+.flashcard-question {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+}
+
+.flashcard-answer {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed color-mix(in srgb, var(--muted) 40%, transparent);
+}
+
+.doc-links {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.doc-links a {
+  color: var(--accent);
+}
+
+.grade-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.grade-buttons button {
+  min-width: 4.5rem;
+}
+
+.banner:not(.banner-error) {
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.35rem;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--muted) 25%, transparent);
+}
+
+.data-table th {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.exam-score {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.per-card-list {
+  padding-left: 1.25rem;
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
+.settings-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.import-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.btn-danger {
+  border-color: var(--error-fg) !important;
+  color: var(--error-fg);
+}

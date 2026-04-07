@@ -1,7 +1,9 @@
+import path from 'node:path';
 import { defineConfig, devices } from '@playwright/test';
 
 const port = 4173;
 const baseURL = `http://127.0.0.1:${port}`;
+const viteCli = path.join(process.cwd(), 'node_modules', 'vite', 'bin', 'vite.js');
 
 export default defineConfig({
   testDir: 'e2e',
@@ -16,9 +18,9 @@ export default defineConfig({
   },
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
   webServer: {
-    command: `npm run preview -- --port ${port} --strictPort`,
+    command: `node "${viteCli}" preview --host 127.0.0.1 --port ${port} --strictPort`,
     url: baseURL,
     reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
+    timeout: 180_000,
   },
 });
