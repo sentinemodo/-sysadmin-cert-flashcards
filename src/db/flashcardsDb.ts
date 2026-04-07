@@ -1,4 +1,5 @@
 import Dexie, { type Table } from 'dexie';
+import type { DeckContent } from '../types/content';
 import type { Attempt, CardSchedulingState, ExamResult } from '../types/runtime';
 
 /** Versioned DB name; bump when schema changes (overview.md §4). */
@@ -12,6 +13,7 @@ export class FlashcardsDB extends Dexie {
   cardSchedulingState!: Table<CardSchedulingState, string>;
   attempts!: Table<Attempt, string>;
   examResults!: Table<ExamResult, string>;
+  editableDecks!: Table<{ bookId: string; deck: DeckContent }, string>;
 
   constructor() {
     super(DB_NAME);
@@ -19,6 +21,12 @@ export class FlashcardsDB extends Dexie {
       cardSchedulingState: 'cardId, dueAt, suspended',
       attempts: 'id, cardId, gradedAt, examResultId, mode',
       examResults: 'id, bookId, chapterId, completedAt',
+    });
+    this.version(2).stores({
+      cardSchedulingState: 'cardId, dueAt, suspended',
+      attempts: 'id, cardId, gradedAt, examResultId, mode',
+      examResults: 'id, bookId, chapterId, completedAt',
+      editableDecks: 'bookId',
     });
   }
 }

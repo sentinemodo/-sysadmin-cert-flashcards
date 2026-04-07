@@ -3,6 +3,7 @@ export type AppRoute =
   | { kind: 'study'; bookId?: string; chapterId?: string }
   | { kind: 'exam'; bookId?: string; chapterId?: string }
   | { kind: 'history'; examId?: string }
+  | { kind: 'editor' }
   | { kind: 'settings' }
   | { kind: 'notFound' };
 
@@ -40,6 +41,8 @@ export function parseHashRoute(): AppRoute {
       const examId = parts[1];
       return examId ? { kind: 'history', examId } : { kind: 'history' };
     }
+    case 'editor':
+      return { kind: 'editor' };
     case 'settings':
       return { kind: 'settings' };
     default:

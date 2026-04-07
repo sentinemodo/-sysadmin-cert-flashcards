@@ -268,6 +268,37 @@ header h1 {
   margin: 0.25rem 0;
 }
 
+.editor-card-item {
+  margin: 0.75rem 0;
+  padding: 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--muted) 22%, transparent);
+  border-radius: 0.5rem;
+}
+
+.editor-card-form {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed color-mix(in srgb, var(--muted) 35%, transparent);
+}
+
+.editor-card-form label {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+.editor-textarea {
+  width: 100%;
+  min-height: 5rem;
+  resize: vertical;
+  margin-top: 0.35rem;
+  padding: 0.5rem;
+  border-radius: 0.35rem;
+  border: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
+  background: color-mix(in srgb, var(--bg) 90%, transparent);
+  color: var(--fg);
+}
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {

@@ -1,10 +1,16 @@
 import './styles/main.css';
 import { subscribeRerender } from './appBus';
+import {
+  clearEditableDecks,
+  loadEditableDecks,
+  saveEditableDecks,
+} from './content/editableDeckStore';
 import { loadDeckContent } from './content/loadContent';
 import { db } from './db/flashcardsDb';
 import { parseHashRoute, subscribeHashChange } from './router';
 import type { DeckContent } from './types/content';
 import { renderExam } from './views/exam';
+import { renderEditor } from './views/editor';
 import { renderHistory } from './views/history';
 import { renderHome } from './views/home';
 import { renderNotFound } from './views/notFound';
@@ -39,6 +45,16 @@ function updateBookScopedNavTargets(deck: DeckContent | null): void {
     }
     if (text === 'Study') link.href = `#/study/${deck.book.id}`;
     if (text === 'Exam') link.href = `#/exam/${deck.book.id}`;
+  }
+}
+
+function setDecks(next: DeckContent[]): void {
+  decks = next;
+  void saveEditableDecks(next).catch(() => {
+    loadError = 'Failed to persist edited decks to IndexedDB.';
+  });
+  if (activeBookId && !next.some((d) => d.book.id === activeBookId)) {
+    setActiveBookId(next[0]?.book.id ?? null);
   }
 }
 
@@ -120,6 +136,9 @@ async function renderRoute(outlet: HTMLElement, subtitle: HTMLElement): Promise<
     case 'history':
       await renderHistory(outlet, deck, loadError, route);
       break;
+    case 'editor':
+      await renderEditor(outlet, decks, setDecks);
+      break;
     case 'settings':
       await renderSettings(outlet);
       break;
@@ -128,7 +147,7 @@ async function renderRoute(outlet: HTMLElement, subtitle: HTMLElement): Promise<
   }
 
   if (deck) {
-    subtitle.textContent = `${deck.book.title} (${deck.chapters.length} chapters)`;
+    subtitle.textContent = 'Dla Ciebie kochanie :)';
     subtitle.hidden = false;
   } else if (loadError) {
     subtitle.textContent = 'Content failed to load';
@@ -165,6 +184,7 @@ async function bootstrap(): Promise<void> {
     ['Home', '#/'],
     ['Study', '#/study'],
     ['Exam', '#/exam'],
+    ['Editor', '#/editor'],
     ['History', '#/history'],
     ['Settings', '#/settings'],
   ];
@@ -195,7 +215,14 @@ async function bootstrap(): Promise<void> {
   try {
     const rememberedBookId = localStorage.getItem(ACTIVE_BOOK_STORAGE_KEY);
     setActiveBookId(rememberedBookId);
-    decks = await loadAllDecks();
+    const editable = await loadEditableDecks();
+    if (editable && editable.length > 0) {
+      decks = editable;
+    } else {
+      decks = await loadAllDecks();
+      await clearEditableDecks();
+      await saveEditableDecks(decks);
+    }
     if (!loadError) loadError = null;
   } catch (e: unknown) {
     decks = [];
