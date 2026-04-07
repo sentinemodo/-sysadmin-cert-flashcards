@@ -15,9 +15,21 @@ const CONTENT_URL = '/content/maag-11-2-1.json';
 
 let deck: DeckContent | null = null;
 let loadError: string | null = null;
+let navLinks: HTMLAnchorElement[] = [];
+
+function setCurrentNav(routeKind: string): void {
+  for (const link of navLinks) {
+    const href = link.getAttribute('href') ?? '#/';
+    const target = href.replace(/^#\//, '').split('/')[0] || 'home';
+    const current = routeKind === 'home' ? target === 'home' : target === routeKind;
+    if (current) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  }
+}
 
 async function renderRoute(outlet: HTMLElement, subtitle: HTMLElement): Promise<void> {
   const route = parseHashRoute();
+  setCurrentNav(route.kind);
   switch (route.kind) {
     case 'home':
       renderHome(outlet, deck, loadError);
@@ -83,6 +95,7 @@ async function bootstrap(): Promise<void> {
     const a = document.createElement('a');
     a.href = href;
     a.textContent = label;
+    navLinks.push(a);
     nav.appendChild(a);
   }
 

@@ -11,6 +11,10 @@ test('exam: complete short chapter exam', async ({ page }) => {
     await expect(page.getByRole('button', { name: 'Reveal answer' })).toBeVisible({
       timeout: 15_000,
     });
+    const revealHeight = await page
+      .getByRole('button', { name: 'Reveal answer' })
+      .evaluate((el) => (el as any).getBoundingClientRect().height);
+    expect(revealHeight).toBeGreaterThanOrEqual(44);
     await page.getByRole('button', { name: 'Reveal answer' }).click();
     await page.getByRole('button', { name: 'Good' }).click();
   }

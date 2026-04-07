@@ -52,3 +52,28 @@ Vite, TypeScript (strict), vanilla DOM, Dexie (IndexedDB), Zod, plain CSS, Vites
 ## Algorithm constants
 
 Tunable values (ease bounds, max interval days, exam jump cap, jitter) live at the top of [`src/lib/scheduling.ts`](src/lib/scheduling.ts). Default exam size when a chapter omits `examQuestionCount`: [`src/appConstants.ts`](src/appConstants.ts).
+
+## Responsive support
+
+Current responsive targets:
+
+- Phone: ~360-430px width
+- Tablet: ~768-1024px width
+- Desktop: >=1280px width
+
+The CSS in [`src/styles/main.css`](src/styles/main.css) includes breakpoint handling, touch-safe controls (44px minimum height), and reduced-motion/focus-visible accessibility support.
+
+Playwright projects currently cover:
+
+- `chromium` (desktop)
+- `mobile-chrome` (Pixel 7 profile)
+
+## Manual responsive QA checklist
+
+- Verify routes at 390x844 and 768x1024:
+  - `#/`, `#/study`, `#/study/:chapterId`, `#/exam`, `#/exam/:chapterId`, `#/history`, `#/settings`
+- Confirm no horizontal page scrolling in normal flows.
+- Confirm `Reveal answer` and grade buttons are easily tappable on phone.
+- Confirm history is readable on phone (card layout) and desktop (table layout).
+- Confirm keyboard focus ring is visible and usable for controls.
+- Confirm reduced-motion preference removes nonessential transitions.

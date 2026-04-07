@@ -53,6 +53,27 @@ export async function renderHistory(
     p.textContent = 'No exams yet.';
     section.appendChild(p);
   } else {
+    const cards = document.createElement('div');
+    cards.className = 'history-cards';
+    for (const r of rows) {
+      const item = document.createElement('article');
+      item.className = 'history-card';
+      const dt = new Date(r.completedAt);
+      const when = document.createElement('p');
+      when.className = 'meta';
+      when.textContent = dt.toLocaleString();
+      const title = document.createElement('p');
+      title.textContent = chapterTitle(deck, r.chapterId);
+      const score = document.createElement('p');
+      score.textContent = `${r.correctCount}/${r.questionCount} (${Math.round(r.scoreRatio * 100)}%)`;
+      const link = document.createElement('a');
+      link.href = `#/history/${r.id}`;
+      link.textContent = 'Detail';
+      item.append(when, title, score, link);
+      cards.appendChild(item);
+    }
+    section.appendChild(cards);
+
     const table = document.createElement('table');
     table.className = 'data-table';
     const thead = document.createElement('thead');
