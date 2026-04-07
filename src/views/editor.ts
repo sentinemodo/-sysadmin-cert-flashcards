@@ -141,7 +141,16 @@ export async function renderEditor(
       const descNext = window.prompt('Book description (optional):', deck.book.description ?? '');
       const next = decks.map((d) =>
         d.book.id === deck.book.id
-          ? { ...d, book: { ...d.book, title: titleNext, description: descNext?.trim() || undefined } }
+          ? {
+              ...d,
+              book: {
+                ...d.book,
+                title: titleNext,
+                ...(descNext?.trim()
+                  ? { description: descNext.trim() }
+                  : {}),
+              },
+            }
           : d,
       );
       saveDecks(next);
