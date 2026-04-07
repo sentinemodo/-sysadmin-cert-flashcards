@@ -209,11 +209,11 @@ export async function renderExam(
   gradeRow.className = 'grade-buttons';
   gradeRow.hidden = true;
 
+  // Exam uses binary self-assessment: Correct/Wrong.
+  // Persist mapping per requirement: Correct -> good, Wrong -> hard.
   const grades: { label: string; value: SelfGrade }[] = [
-    { label: 'Again', value: 'again' },
-    { label: 'Hard', value: 'hard' },
-    { label: 'Good', value: 'good' },
-    { label: 'Easy', value: 'easy' },
+    { label: 'Correct', value: 'good' },
+    { label: 'Wrong', value: 'hard' },
   ];
 
   const onGrade = async (g: SelfGrade): Promise<void> => {

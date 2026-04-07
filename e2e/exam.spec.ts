@@ -16,7 +16,7 @@ test('exam: complete short chapter exam', async ({ page }) => {
       .evaluate((el) => (el as any).getBoundingClientRect().height);
     expect(revealHeight).toBeGreaterThanOrEqual(44);
     await page.getByRole('button', { name: 'Reveal answer' }).click();
-    await page.getByRole('button', { name: 'Good' }).click();
+    await page.getByRole('button', { name: 'Correct' }).click();
   }
 
   await expect(page.getByRole('heading', { name: 'Exam result' })).toBeVisible({
