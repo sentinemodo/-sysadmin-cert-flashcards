@@ -11,7 +11,7 @@ import { renderNotFound } from './views/notFound';
 import { renderSettings } from './views/settings';
 import { renderStudy } from './views/study';
 
-const CONTENT_URL = '/content/maag-11-2-1.json';
+const CONTENT_URL = `${import.meta.env.BASE_URL}content/maag-11-2-1.json`;
 
 let deck: DeckContent | null = null;
 let loadError: string | null = null;
