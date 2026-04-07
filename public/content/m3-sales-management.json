@@ -1,0 +1,2468 @@
+{
+  "book": {
+    "id": "m3-sales-management",
+    "title": "M3 Sales Management",
+    "description": "Flashcards generated from M3 Sales Management.pdf. Cards are detailed, page-bound, and grouped by PDF chapter/subchapter where outline data exists.",
+    "order": 1
+  },
+  "chapters": [
+    {
+      "id": "ch01-contents",
+      "bookId": "m3-sales-management",
+      "title": "Contents",
+      "order": 1,
+      "examQuestionCount": 6
+    },
+    {
+      "id": "ch02-about-this-guide",
+      "bookId": "m3-sales-management",
+      "title": "About this guide",
+      "order": 2,
+      "examQuestionCount": 5
+    },
+    {
+      "id": "ch03-overview",
+      "bookId": "m3-sales-management",
+      "title": "Overview",
+      "order": 3,
+      "examQuestionCount": 5
+    },
+    {
+      "id": "ch04-applications",
+      "bookId": "m3-sales-management",
+      "title": "Applications",
+      "order": 4,
+      "examQuestionCount": 25
+    },
+    {
+      "id": "ch05-analytics-and-reporting",
+      "bookId": "m3-sales-management",
+      "title": "Analytics and Reporting",
+      "order": 5,
+      "examQuestionCount": 6
+    },
+    {
+      "id": "ch06-localizations",
+      "bookId": "m3-sales-management",
+      "title": "Localizations",
+      "order": 6,
+      "examQuestionCount": 5
+    },
+    {
+      "id": "ch07-technology-platform",
+      "bookId": "m3-sales-management",
+      "title": "Technology Platform",
+      "order": 7,
+      "examQuestionCount": 8
+    },
+    {
+      "id": "ch08-extending-the-solution",
+      "bookId": "m3-sales-management",
+      "title": "Extending the Solution",
+      "order": 8,
+      "examQuestionCount": 12
+    }
+  ],
+  "cards": [
+    {
+      "id": "m3-sales-management/ch01-contents/00001",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch01-contents",
+      "question": "Page 3 in 'Contents' (General section): Which sections or subtopics are listed on this contents page, and how should they be used to navigate study?",
+      "goodAnswer": "Contents; About this guide; Related documents; Contacting Infor; Chapter 1: Overview; Chapter 2: Applications; M3 Core; M3 Application Foundation",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 3",
+          "url": "content/M3 Sales Management.pdf#page=3"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "contents",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch01-contents/00002",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch01-contents",
+      "question": "Page 4 in 'Contents' (General section): Which sections or subtopics are listed on this contents page, and how should they be used to navigate study?",
+      "goodAnswer": "Equipment Portal; Supplier Portal; Supply Chain Planning; Velocity Suite; Third-Party Applications; M3 Credit Card Interface using CenPOS; SPS Commerce EDI; Vertex O-Series",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 4",
+          "url": "content/M3 Sales Management.pdf#page=4"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "contents",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch01-contents/00003",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch01-contents",
+      "question": "Page 5 in 'Contents' (General section): Which sections or subtopics are listed on this contents page, and how should they be used to navigate study?",
+      "goodAnswer": "Extensibility; Integration Solutions; Extension of M3 business Logic and Data; Reporting; BI and Analytics; Recommended Tooling for Coding New Business Logic; Infor CloudSuite Food and Beverage Solution Overview |; Contents",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 5",
+          "url": "content/M3 Sales Management.pdf#page=5"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "contents",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch02-about-this-guide/00004",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch02-about-this-guide",
+      "question": "Page 6 in 'About this guide' (Contacting Infor) - detail 1: Explain 'About this guide This guide provides' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "About this guide This guide provides conceptual information for Infor CloudSuite Food & Beverage, including a summary of the applications in this solution. It also includes options that you can use to extend the CloudSuite solution. Related documents Related documentation for this CloudSuite can be found in CloudSuite Food and Beverage Documentation Library.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 6",
+          "url": "content/M3 Sales Management.pdf#page=6"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "about-this-guide",
+        "contacting-infor"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch02-about-this-guide/00005",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch02-about-this-guide",
+      "question": "Page 6 in 'About this guide' (Contacting Infor) - detail 2: Explain 'For documentation about the related products' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "For documentation about the related products, go to https://docs.infor.com. Contacting Infor If you have questions about Infor products or documentation, go to Infor Concierge at https:// concierge.infor.com/ and create a support incident. For the latest documentation, go to Documentation Central at docs.infor.com.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 6",
+          "url": "content/M3 Sales Management.pdf#page=6"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "about-this-guide",
+        "contacting-infor"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch02-about-this-guide/00006",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch02-about-this-guide",
+      "question": "Page 6 in 'About this guide' (Contacting Infor) - detail 3: Explain 'We recommend that you check this' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "We recommend that you check this website periodically for updated documentation. Infor CloudSuite Food and Beverage Solution Overview | About this guide",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 6",
+          "url": "content/M3 Sales Management.pdf#page=6"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "about-this-guide",
+        "contacting-infor"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch03-overview/00007",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch03-overview",
+      "question": "Page 7 in 'Overview' (General section) - detail 1: Explain 'Chapter 1: Overview This multi-tenant CloudSuite' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Chapter 1: Overview This multi-tenant CloudSuite is provided by subscription. It includes industry-specific content and business applications.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 7",
+          "url": "content/M3 Sales Management.pdf#page=7"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "overview",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch03-overview/00008",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch03-overview",
+      "question": "Page 7 in 'Overview' (General section) - detail 2: Explain 'Recommended applications that address the unique' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Recommended applications that address the unique business requirements for your industry and optional and third-party applications are also available. This list shows the selection of the applications that are available for Food and Beverage.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 7",
+          "url": "content/M3 Sales Management.pdf#page=7"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "overview",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch03-overview/00009",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch03-overview",
+      "question": "Page 7 in 'Overview' (General section) - detail 3: Explain 'These core applications are included: \u2022' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "These core applications are included: \u2022 M3 Core \u2022 M3 Analytics for CS Food & Beverage \u2022 Platform \u2022 IPC for CS Food & Beverage \u2022 Localization Services \u2022 Analytics Platform These add-ons are recommended: \u2022 Factory Track \u2022 M3 Graphical Lot Tracker \u2022 PLM for Process \u2022 M3 Demand Planner \u2022 M3 Scheduling Workbench \u2022 Birst Enterprise Infor CloudSuite Food and Beverage Solution Overview | Overview",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 7",
+          "url": "content/M3 Sales Management.pdf#page=7"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "overview",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00010",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 8 in 'Applications' (M3 Core) - detail 1: Explain 'Chapter 2: Applications Certain core applications' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Chapter 2: Applications Certain core applications are included in the base Software-as-a Service (SaaS) subscription model of this CloudSuite. For information, see the CloudSuite reference architecture for your industry. M3 Core Infor M3 Core is a modern cloud based ERP solution that delivers industry-leading functionality for the distribution, equipment, fashion, food & beverage, chemical and manufacturing industries. Infor M3 Core provides a digital backbone Enterprise Resource Planning (ERP) solution that offers a broad set of functionality to support the core business processes and functions across the organization.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 8",
+          "url": "content/M3 Sales Management.pdf#page=8"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00011",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 8 in 'Applications' (M3 Core) - detail 2: Explain 'Infor M3 Core offers ultimate flexibility' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Infor M3 Core offers ultimate flexibility in operations, technology, and scale built on leading cloud technology. As an international multi-site, multi-country, and multi-company solution that supports multi-language and multi-currency, M3 Core empowers your organization to adapt to your ever-changing business needs. It provides flexibility in managing mixed-mode and complex manufacturing and supply chains, with the agility to make quick configuration adjustments at any time as your business changes and grows. Infor M3 Core includes modules for finance, sales, equipment sales, service and rental, planning, manufacturing, and procurement in addition to several industry-specific add-on modules.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 8",
+          "url": "content/M3 Sales Management.pdf#page=8"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00012",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 8 in 'Applications' (M3 Core) - detail 3: Explain 'M3 Application Foundation M3 Output Management' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Application Foundation M3 Output Management M3 includes and supports an extensive range of Output Management capabilities that enable the management, creation, and output of varying business documents and reports. Documents can either be output directly from M3, or created in M3 and distributed in the required format, to the required location, to support the required use case. Typical examples of documents are standard reports, ad-hoc reports, and business documents such as picking lists or customer invoices. Due to the wide scope of use cases and requirements, these options are available for the creation, management, and distribution of reports and business documents: \u2022 Configurable XML Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 8",
+          "url": "content/M3 Sales Management.pdf#page=8"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00013",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 9 in 'Applications' (M3 Core) - detail 1: Explain '\u2022 Ad-Hoc Reporting \u2022 Infor Document' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Ad-Hoc Reporting \u2022 Infor Document Management \u2022 Third Party Options Configurable XML M3 industry CloudSuites support configurable XML as a mechanism for outputting M3 data to enable consumption and management by the receiving application. Ad-Hoc Reporting Ad-Hoc Reporting is an internal M3 application used for creating and defining simple, non-complex, near real-time reports. These reports are defined in M3 and output, via Configurable XML, for ongoing management by multiple output systems. Infor Document Management Infor Document Management is part of the Infor OS technology stack and provides integrated output management capabilities for M3 industry CloudSuites. The documents received from M3 can be managed, formatted, distributed, and archived as required.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 9",
+          "url": "content/M3 Sales Management.pdf#page=9"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00014",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 9 in 'Applications' (M3 Core) - detail 2: Explain 'Third Party Options Third party document' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Third Party Options Third party document management options are available for M3 industry CloudSuite customers. M3 Core has a certified integration to the third-party platform, OpenText Exstream Cloud (formally known as StreamServe). OpenText Exstream Cloud is a platform that is external to the M3 industry CloudSuite but can be run alongside Infor Document Management (IDM) if required for customers with more sophisticated document management needs or those migrating from StreamServe. The on-premises deployment of OpenText Exstream is enabled through the Cloud File Transfer (CFT) component. M3 Transaction Archive Management Infor M3 Transaction Archive Management is a module within the Application Foundation of the Infor M3 Business Engine that helps you to centrally manage all Infor M3 archiving functions.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 9",
+          "url": "content/M3 Sales Management.pdf#page=9"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00015",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 9 in 'Applications' (M3 Core) - detail 3: Explain 'With the module you will be' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "With the module you will be able to establish and support your own archiving policies, processes and verification rules. Transaction Archive Management helps you to centrally manage all M3 archiving functions which minimizes the risk of incorrect archiving. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 9",
+          "url": "content/M3 Sales Management.pdf#page=9"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00016",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 10 in 'Applications' (M3 Core) - detail 1: Explain 'M3 Customer Sales and Service M3' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Customer Sales and Service M3 Sales Management Infor M3 Sales Management serves as the hub for customer and pricing information. It helps to maximize sales with satisfied customers and sales organization through highly sophisticated sales order management support. It brings a common view to your commercial and logistical activities by connecting your planning, pricing, discounts, promotions, supplier rebates, retrospective trade agreements, statistics, and follow up to your fulfillment processes. Customer Order Processing is highly scalable to manage EDI orders as well as intense order volumes in tele-sales environments. Standing order templates, buying patterns, assortment control, and advanced global capable-to-promise ensures rapid and faultless order entry.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 10",
+          "url": "content/M3 Sales Management.pdf#page=10"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00017",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 10 in 'Applications' (M3 Core) - detail 2: Explain 'FEFO and attribute based allocation rules' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "FEFO and attribute based allocation rules, strict rotation, and the definition of customer unique shelf-life requirements ensures the shipment of exactly what the customer is expecting. The Proof-of-Delivery process enables you to capture confirmation that the customer has received the goods before releasing for invoicing. Invoicing can be immediate per order, or batched together using a schedule for periodic invoicing runs, typically daily, weekly, or monthly. The advanced pricing module supports multiple parallel discounts with or without bracketing levels on item, group, order, or invoice totals. Promotions can be defined and followed up.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 10",
+          "url": "content/M3 Sales Management.pdf#page=10"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00018",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 10 in 'Applications' (M3 Core) - detail 3: Explain 'Retrospective Trade Agreements allow for post-invoice' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Retrospective Trade Agreements allow for post-invoice rebates, bonuses, allowances, slotting fees, trade promotions, and commissions to customers, salespersons, and agents. Sales Order Line-based Supplier Rebates allows cost-manipulation, so accurate margins are determined at order line entry with retrospective adjustments and full claims processing. Sales Management includes: \u2022 Customer Order Processing \u2022 Pricing & Conditions \u2022 Sales Quotations \u2022 Bonus & Commissions \u2022 Sales Order line-based Supplier Rebates \u2022 Trade Agreements \u2022 Sales Statistics & Performance \u2022 Bulk Orders \u2022 Cash Desk Sales \u2022 Point of Sales Integration \u2022 Customer Delivery Schedules \u2022 Customer Service Desk (core mashup) \u2022 Core Entitlement Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 10",
+          "url": "content/M3 Sales Management.pdf#page=10"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00019",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 11 in 'Applications' (M3 Core) - detail 1: Explain 'M3 Maintenance Order Management Infor M3' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Maintenance Order Management Infor M3 Maintenance Order Management application is specifically designed for Original Equipment Manufacturers, distributors, rental companies, and third-party maintenance providers who require a flexible system capable of managing different customers\u2019 after sales service needs. It provides the flexibility needed to support the additional dimension of owner and an extensive use of maintenance agreements to help build up a quick and effective sales process. Agreements can be created for general use or specifically for each customer. Different charging methods can be defined as, for example, based on a customer\u2019s operations (meter based).",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 11",
+          "url": "content/M3 Sales Management.pdf#page=11"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00020",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 11 in 'Applications' (M3 Core) - detail 2: Explain 'By using agreements for quotations, orders' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "By using agreements for quotations, orders and invoicing, two fundamental requirements are satisfied: Efficiency and quality. Maintenance Order Management includes: \u2022 Maintenance Agreements \u2022 Maintenance Quotations \u2022 Maintenance Customer Order Processing M3 Rental Management Automate critical rental management transactions, including rental orders, packages and kits, consumable sales, and equipment sales, as well as rent-to-buy, up-rent, and re-rent. M3 Rental Management includes: \u2022 Long-term rental agreements \u2022 Short-term rental agreements \u2022 Rental Equipment Planning Board \u2022 Rental Logistics Toolbox \u2022 M3 Rental Counter (core mashup) M3 Rental Counter With Infor M3 Rental Counter, you can search, display, create, and administer rental agreements and customers. You can work with quotations, preliminary agreements, and active agreements.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 11",
+          "url": "content/M3 Sales Management.pdf#page=11"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00021",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 11 in 'Applications' (M3 Core) - detail 3: Explain 'You can also create service requests' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "You can also create service requests for equipment and handle cash payment for open invoices. M3 Rental Counter collects information from a number of M3 Business Engine programs related to the rental business processes. M3 Project Management Infor M3 Project Management is a comprehensive project management application with functionality specifically designed to solve the challenges faced by today\u2019s project-oriented companies in various industries. The processes of entering and maintaining projects have been streamlined, providing continuously updated Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 11",
+          "url": "content/M3 Sales Management.pdf#page=11"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00022",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 12 in 'Applications' (M3 Core) - detail 1: Explain 'project information, project status, schedules and' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "project information, project status, schedules and cost control. Project Management offers highly configurable functionality suitable for small as well as large projects. Project management includes: \u2022 Project Processing \u2022 Project Quotations \u2022 Project Control Board \u2022 Project Portal (core mashup) M3 Project Portal Infor M3 Project Portal provides a single entry point to access detailed project information either by project number or by projects associated with customers. The project portal displays general project information, project quotations, the project breakdown structure, financial information and invoices. The solution also uses Infor Enterprise Search to quickly find project information.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 12",
+          "url": "content/M3 Sales Management.pdf#page=12"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00023",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 12 in 'Applications' (M3 Core) - detail 2: Explain 'M3 Customer Service Desk Infor M3' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Customer Service Desk Infor M3 Customer Service Desk is a customer-orientated solution that provides extensive information about a customer or a customer\u2019s equipment. It is designed for situations where customers call to buy parts, arrange a service engineer visit or just to get advice. In these scenarios, you need to find the customer or equipment details quickly and accurately. Customer Service Desk provides information about the customer, including addresses and financial information, while the equipment details can include equipment information, service history, and modification information. M3 Supply Chain Management M3 Supply Chain Execution Infor M3 Supply Chain Execution supports the fulfillment process for both simple and complex distribution networks and includes warehouse and transport management, lot-allocation and traceability, distribution orders, statistics and more.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 12",
+          "url": "content/M3 Sales Management.pdf#page=12"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00024",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 12 in 'Applications' (M3 Core) - detail 3: Explain 'The warehousing module supports full lot-management' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The warehousing module supports full lot-management and traceability with expiry dates, last sales dates and harvest date handling. Attributes can be assigned to lots and balance IDs and tracked through the supply chain. Pallets and cases can be represented and transacted upon using the container and package management concept with support for license plates and SSCC-identifications. Freight cost management allows you to calculate expected carrier-costs and assign to deliveries and shipments for later self-billing or matching against supplier or carrier invoices. These modules are included in Supply Chain Execution: Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 12",
+          "url": "content/M3 Sales Management.pdf#page=12"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00025",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 13 in 'Applications' (M3 Core) - detail 1: Explain '\u2022 Distribution Order Processing \u2022 Inventory' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Distribution Order Processing \u2022 Inventory Statistics \u2022 Lot and Allocation Control \u2022 Warehouse Management \u2022 Transport Management \u2022 Item Interface \u2022 Warehouse Management Interfaces \u2022 Transportation Planning Interfaces \u2022 Freight Cost Management M3 Supply Chain Planning The core Supply Chain Planning capabilities includes forecasting, material and distribution planning, supply-chain-orders and global capable-to-promise functionality. The material and distribution-planning engine plans down to the hour and minute level to facilitate tight scheduling of manufacturing and sourcing to meet deadlines for same or next day shipments to customers. The shelf life of individual lots is integrated into the material planning engine and allows you to activate alerts for stock projected to become obsolete before consumed by any demand like forecast or sales orders.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 13",
+          "url": "content/M3 Sales Management.pdf#page=13"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00026",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 13 in 'Applications' (M3 Core) - detail 2: Explain 'These modules are included in Supply' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "These modules are included in Supply Chain Planning: \u2022 Forecasting \u2022 Material Planning \u2022 Master Production Scheduling \u2022 Rough Cut Capacity Planning \u2022 Distribution Requirements Planning \u2022 Global Capable to Promise \u2022 Supply Chain Connected Orders M3 Inventory Planning Workbench Infor M3 Inventory Planning Workbench improves your planning decisions by indentifying the essential highlights and exceptions in your material plan. It is a tool for viewing, simulating, and editing inventory, demand, and supply across multiple variable time buckets. It provides support for monitoring material and product inventory planning in manufacturing and distribution companies.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 13",
+          "url": "content/M3 Sales Management.pdf#page=13"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00027",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 13 in 'Applications' (M3 Core) - detail 3: Explain 'The functionality provides support for these' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The functionality provides support for these roles and processes. \u2022 Production planners: Provides a master scheduler viewer and planning tool that focuses on the availability and inventory levels of selected items \u2022 Buyers: Forecasts a time-phased inventory projection across different items that are grouped per supplier \u2022 Customer service: Indicates items that are available for sale and push marketing as opposed to items with low inventory levels that may experience shortages Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 13",
+          "url": "content/M3 Sales Management.pdf#page=13"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00028",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 14 in 'Applications' (M3 Core) - detail 1: Explain 'Highlights and exceptions are defined in' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Highlights and exceptions are defined in the application by a flexible color-coding feature that enables you to identify the most critical planning issues and items that require immediate action. These key indicators and measures can help you in your decision-making process: \u2022 Dynamic coverage time per time bucket and coverage time in relationship to shelf life \u2022 Safety stock and maximum inventory violations \u2022 Forecast fulfillment % \u2022 Expected future negative shelf life issues and positive inventory reclassification \u2022 Forecast versus order stock comparison M3 Procurement Infor M3 Procurement efficiently supports the aspects of procurement and sourcing including supplier selection and evaluation, creation and renewal of supplier agreements, requisitioning, purchase order processing and monitoring milestones, receiving and quality control, claims, invoice control and statistics. Different categories of orders processed in Procurement are ",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 14",
+          "url": "content/M3 Sales Management.pdf#page=14"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00029",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 14 in 'Applications' (M3 Core) - detail 2: Explain 'The components within Procurement streamline and' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The components within Procurement streamline and efficiently support the aspects of your procurement process. M3 Procurement includes: \u2022 Grower Contract Management \u2022 Purchase Delivery Schedules \u2022 Purchase Order Processing \u2022 Request for Quotations \u2022 Supplier Evaluation and Statistics \u2022 Supplier Rebate M3 Enterprise Asset Management M3 Maintenance Management The Infor M3 Maintenance Management module enables planned maintenance to be controlled in an integrated way with the production planning and execution activities. Equipment and plant maintenance can then ensure that maintenance will occur at the right time, maintaining an optimum level of production efficiency required.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 14",
+          "url": "content/M3 Sales Management.pdf#page=14"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00030",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 14 in 'Applications' (M3 Core) - detail 3: Explain 'Maintenance Management includes: \u2022 Diagnostics Management' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Maintenance Management includes: \u2022 Diagnostics Management \u2022 Maintenance Performance and Costing \u2022 Work Order Processing \u2022 Equipment and Component Control Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 14",
+          "url": "content/M3 Sales Management.pdf#page=14"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00031",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 15 in 'Applications' (M3 Core) - detail 1: Explain '\u2022 Preventive Maintenance \u2022 Capability Management' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Preventive Maintenance \u2022 Capability Management \u2022 Maintenance Scheduling Board \u2022 Warranty Management \u2022 Core Management Warranty Management Warranty management is a solution that allows you to set up the basic data that is used within the warranty and claim flows. Each warranty record can contain details on for how long the warranty is valid (calendar and meters), details of goodwill periods, and if charges apply. Then, to each warranty you can connect the details of types of transactions that are covered by the warranty and you can include labor, materials, subcontract charges, and expenses. The solution supports both standard and extended warranty types together with specialized warranty types that can be automatically built by the system after completing a service job (so that the warranty only covers the work that has been carried out). It also provides a range of options to manage your customers warranty claims against you, and tho",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 15",
+          "url": "content/M3 Sales Management.pdf#page=15"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00032",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 15 in 'Applications' (M3 Core) - detail 2: Explain 'The system covers: receiving the initial' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The system covers: receiving the initial claim, updating the claim, claim agreement and final closure. M3 Equipment Profitability Portal Infor M3 Equipment Profitability Portal visualizes table and graphical information about the historic and future revenues and costs of equipment used in your organization. M3 Balance Key definitions for your own Equipment Profitability models provide both high-level summarized financial information with drill down to specific Business Engine transactions as required. The solution comprises these related components: \u2022 Integrated Equipment Profitability Models \u2022 User-defined inquiries presenting views of profitability over time and by serial number M3 Manufacturing Operations Infor M3 Manufacturing Operations suite is designed to assist in reducing operational overheads and supporting operational efficiencies in discrete, process, and mixed-mode manufacturing environments. Both simple and complex manufac",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 15",
+          "url": "content/M3 Sales Management.pdf#page=15"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00033",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 15 in 'Applications' (M3 Core) - detail 3: Explain 'Manufacturing Operations enables organizations to centrally' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Manufacturing Operations enables organizations to centrally manage product definition for the Infor M3 Enterprise System. In doing so, it manages complex, configured and attribute-controlled products and directly supports costing, planning, and execution. Further advanced functions support best practices such as Lean Manufacturing without sacrificing regulatory control or product complexities. Applications within Manufacturing Operations include: \u2022 Product Data Management \u2022 Manufacturing Execution Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 15",
+          "url": "content/M3 Sales Management.pdf#page=15"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00034",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 16 in 'Applications' (M3 Core) - detail 1: Explain '\u2022 Capacity Planning Workbench M3 Product' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Capacity Planning Workbench M3 Product Data Management Infor M3 Product Data Management (PDM) enables you to maintain, store and use all types of product-related data across the administrative processes in your organization. Product Data management includes: \u2022 Engineering Change Management \u2022 Product Data \u2022 Technical Document Management M3 Manufacturing Execution The Infor M3 Manufacturing Execution capabilities includes scheduling, execution reporting and follow-up of manufacturing orders. It also support processes for quality assurance, both in-process control and quality control of finish goods.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 16",
+          "url": "content/M3 Sales Management.pdf#page=16"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00035",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 16 in 'Applications' (M3 Core) - detail 2: Explain 'These modules are included in Manufacturing' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "These modules are included in Manufacturing Execution: \u2022 Manufacturing Order Processing \u2022 Operations reporting \u2022 Laboratory and Inspection Control \u2022 Quality Management System \u2022 Capacity Requirement Planning \u2022 Production Statistics \u2022 Time and Attendance M3 Capacity Planning Workbench M3 Capacity Planning Workbench is an online-configurable spreadsheet grid with an associated graphical view. It displays a list of work centers with their current capacity and load situation in M3 ERP across multiple variable time buckets. Filtering work centers and coding cells by color helps you to focus on exceptions such as over-utilization and under-utilization of resources.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 16",
+          "url": "content/M3 Sales Management.pdf#page=16"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00036",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 16 in 'Applications' (M3 Core) - detail 3: Explain 'With configurable columns you can add' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "With configurable columns you can add information about the capacity and load generated by different types of orders and categories, for example, priorities, utilization by discrete time buckets, and cumulation. You can go into the details with tabs and related options, and take actions on proposals and orders. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 16",
+          "url": "content/M3 Sales Management.pdf#page=16"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00037",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 17 in 'Applications' (M3 Core) - detail 1: Explain 'M3 Financial Management M3 Financial Business' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Financial Management M3 Financial Business Controlling Infor M3 Financial Controlling application is a complete set of tools for efficient internal financial controlling. Each module enables you to analyze and plan, as well as display detailed management views of an organization's key business processes. Modules in Financial Business Controlling include: \u2022 Budgeting \u2022 Cash Flow Management \u2022 Cost Accounting \u2022 Equipment Profitability Portal \u2022 Product Costing \u2022 Risk Management \u2022 Time Accounting \u2022 Financial Agreement Controlling (FAC) M3 Financial Corporate Management Infor M3 Financial Corporate Management application is a complete set of tools to use for efficient process of group consolidation and multiple unit coordination.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 17",
+          "url": "content/M3 Sales Management.pdf#page=17"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00038",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 17 in 'Applications' (M3 Core) - detail 2: Explain 'Modules in Financial Corporate Management include' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Modules in Financial Corporate Management include: \u2022 Group Consolidation \u2022 Multiple Unit Coordination M3 Financial Accounting The Infor M3 Financial Accounting application enables customers to access and utilize the crucial information that drives business decisions. Customers are able to capture, analyze, and simulate critical trends based on their unique business goals and requirements. Financial Accounting helps customers save costs, eliminate redundancies, streamline activities, and allow redeployment of assets to more profitable activities.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 17",
+          "url": "content/M3 Sales Management.pdf#page=17"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00039",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 17 in 'Applications' (M3 Core) - detail 3: Explain 'Its highly configurable structure can be' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Its highly configurable structure can be tailored to meet local, regional, national, and global business models. Modules within Financial Accounting include: \u2022 Accounts Payable \u2022 Accounts Receivable \u2022 Automatic Recording Bank Statements Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 17",
+          "url": "content/M3 Sales Management.pdf#page=17"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-core"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00040",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 18 in 'Applications' (Process Intelligence) - detail 1: Explain '\u2022 Current Assets \u2022 Environmental Tax' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Current Assets \u2022 Environmental Tax Management \u2022 Financial Agreement \u2022 Financial Audit and Accounting \u2022 Fixed Assets \u2022 General Ledger \u2022 Intrastat \u2022 Report Generator \u2022 Tax Management \u2022 Invoice Matching Process Intelligence Process Viewer and Process Modeler Infor Process Intelligence (IPI) is a complete business process solution that you can use to explore and review industry-specific catalogs. These can serve as a catalyst for business transformation initiatives during the deployment and post-deployment phases. The additional modeling capability enables you to add, extend, and enhance new business processes to meet your requirements. IPI includes these key benefits: \u2022 Visible industry-specific business process models. \u2022 Multilevel business process modeling, with an active Process Modeling subscription.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 18",
+          "url": "content/M3 Sales Management.pdf#page=18"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "process-intelligence"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00041",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 18 in 'Applications' (Process Intelligence) - detail 2: Explain '\u2022 Easy navigation into applications from' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Easy navigation into applications from business processes. \u2022 Content management with registry capability. \u2022 Configure view and design permissions based on user roles from Infor OS Security. \u2022 Centralized storage of attachments and IPI-generated documents in Infor Document Management. \u2022 Import and export content across multiple tenants.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 18",
+          "url": "content/M3 Sales Management.pdf#page=18"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "process-intelligence"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00042",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 18 in 'Applications' (Process Intelligence) - detail 3: Explain 'Process Mining Infor Process Mining is' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Process Mining Infor Process Mining is a comprehensive business process analytics solution within the Infor Process Intelligence (IPI) application. See the Velocity Suite section for information on Process Mining. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 18",
+          "url": "content/M3 Sales Management.pdf#page=18"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "process-intelligence"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00043",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 19 in 'Applications' (Factory Track) - detail 1: Explain 'Industry Process Catalog for CloudSuite Food' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Industry Process Catalog for CloudSuite Food & Beverage Industry Process Catalog for CloudSuite Food & Beverage is preconfigured content targeted at your organization\u2019s industry. It provides a collection of assets including configurations, processes, and test cases that bring leading industry practices that cover your organizations core needs. This content can streamline the implementation process of this CloudSuite, helping you to save time and money and takes the guesswork out of deployment. The result is an affordable solution that delivers a predictable outcome can meet your organization\u2019s requirements today and into the future. It can also reduce the total cost of ownership, provide a faster ROI and time-to-benefit that is measured in weeks instead of months or years. Processes are supported across the domains of Finance, Procurement, Warehouse Management, Manufacturing, Planning, Sales, Quality Inspection, and Track and Trace. The",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 19",
+          "url": "content/M3 Sales Management.pdf#page=19"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "factory-track"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00044",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 19 in 'Applications' (Factory Track) - detail 2: Explain 'Industry Process Catalog for CloudSuite Food' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Industry Process Catalog for CloudSuite Food & Beverage \u2013 Dairy Similar to Industry Process Catalog for CloudSuite Food & Beverage, thisIndustry Process Catalog provides additional extensibility and data on top of the core solution to target your industry. Focused on the processing of milk to milk powder, milk products, cream cheese, and yogurt. Master data is provided for hard cheeses that are ripened and treated for a longer period. These additional processes with supporting functionality are included: \u2022 Shop floor control for milk processing \u2022 Fluids receipts \u2022 Storage rates \u2022 Milk payments Factory Track Infor Factory Track is a purpose-built warehouse and manufacturing automation solution for M3. Factory Track enables your operators to capture transactions in real time, using mobile devices such as handheld scanners and tablets. Key features include: \u2022 The support of M3 warehouse and manufacturing transactions in real-time. \u2022 HTML5 ",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 19",
+          "url": "content/M3 Sales Management.pdf#page=19"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "factory-track"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00045",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 19 in 'Applications' (Factory Track) - detail 3: Explain '\u2022 Highly configurable workflows to guide' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Highly configurable workflows to guide and automate end-user operations. \u2022 Advanced 1D and 2D multi-data barcode processing. \u2022 Infor Mongoose framework with an extensibility option. \u2022 Integrated translations for more than languages. Note: Factory track is a SKU-based application, without matrix information Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 19",
+          "url": "content/M3 Sales Management.pdf#page=19"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "factory-track"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00046",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 20 in 'Applications' (M3 Scheduling Workbench) - detail 1: Explain 'M3 Graphical Lot Tracker Infor M3' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Graphical Lot Tracker Infor M3 Graphical Lot Tracker is for companies that use lot control and need to track and trace the links between different lots in their supply chain. Its search capabilities enable you to quickly trace backwards from end products to identify potentially contaminated raw material lots, or forwards to determine the potential consequences of product issues. You can generate customer recall lists to identify affected end products with customers' shipped-to information and lists of lots in stock with the option to stop product lots from further delivery within a minimum time. An intuitive user interface makes the solution easy to use for occasional users such as external auditors. M3 Graphical Lot Tracker provides the lot traceability to help ensure the rapid recall of products in connection with product and safety issues where retailers sometimes request recall information within as little as two hours. M3 Graphi",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 20",
+          "url": "content/M3 Sales Management.pdf#page=20"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-scheduling-workbench"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00047",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 20 in 'Applications' (M3 Scheduling Workbench) - detail 2: Explain 'It also helps forward-looking companies to' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "It also helps forward-looking companies to prove the origin of raw materials was from licensed or approved sources or ethical suppliers. M3 Scheduling Workbench Infor M3 SWB - Scheduling Workbench is a powerful decision support tool for production planning and the scheduling of manufacturing orders. It takes into consideration finite capacity constraints and material flow from raw materials to finished products. M3 SWB - Scheduling Workbench can handle single or multi-facility/plant distribution and production planning and then synchronizes resource utilization and material flow through the internal supply chain. The capabilities in M3 SWB - Scheduling Workbench include, among others: \u2022 Decision support with customizable workflow menus to help planners executing their daily planning tasks. \u2022 Processes and decisions tightly integrated with M3 Business Engine.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 20",
+          "url": "content/M3 Sales Management.pdf#page=20"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-scheduling-workbench"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00048",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 20 in 'Applications' (M3 Scheduling Workbench) - detail 3: Explain '\u2022 Performance Scoreboard with delivery performance' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Performance Scoreboard with delivery performance, shortages and resource utilization. \u2022 Support for MTO and MTS production with visibility of customer orders versus forecast driven demands when prioritizing your plans. \u2022 Critical constraints handling based on Goldratt's Theory of Constraints \u2022 Dynamic network interdependencies and synchronization between orders, materials, routings and capacity \u2022 Rules based sequence optimization engine to squeeze out nonproductive time. \u2022 Interactive Scheduling Board that shows the operations scheduled for one or multiple resources. \u2022 Interactive workbenches for capacity planning focusing on utilization and load of work-centers, and material planning focusing on stock situations, coverage times etc. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 20",
+          "url": "content/M3 Sales Management.pdf#page=20"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-scheduling-workbench"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00049",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 21 in 'Applications' (Infor MES) - detail 1: Explain 'PLM for Process Infor PLM for' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "PLM for Process Infor PLM for Process manages the product life cycle from idea generation to a final product that is ready for manufacture and launch. PLM for Process provides core capabilities for developing new products, and new versions of products, faster, more safely, and more cost-efficiently. The workflow and project management capabilities help you to plan your development activities across roles and departments, to reduce lead times and to make your development process more efficient. Developing new products is supported by strong formulation capabilities that roll up characteristics and costs from ingredient levels, through intermediates, to final products. Nutritional values, ingredients, allergens, regulations, and claims can be calculated and validated as you perform your formulations.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 21",
+          "url": "content/M3 Sales Management.pdf#page=21"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "infor-mes"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00050",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 21 in 'Applications' (Infor MES) - detail 2: Explain 'This critical information forms the basis' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "This critical information forms the basis for generating final product information through specifications, ingredient statements, and labels. Item data and bill of materials for final formulations can be shared with the Infor M3 Product Data Management module when they are ready for production or production tests in the M3 ERP manufacturing module. Document Capture Infor Document Capture enables you to convert a high volume of unstructured document data from multiple formats into structured information by using machine learning and analytics. The automated conversion of document data categorizes each document by type and captures and stores relevant data for each document, providing greater efficiency, productivity, and a more detailed analysis of your business processes within Infor enterprise resource planning (ERP) solutions. Governance, Risk and Compliance Infor Governance Risk and Compliance (GRC) is a native cloud multi-tenant sol",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 21",
+          "url": "content/M3 Sales Management.pdf#page=21"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "infor-mes"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00051",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 21 in 'Applications' (Infor MES) - detail 3: Explain 'It automatically identifies exceptions and controls' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "It automatically identifies exceptions and controls failures in key application systems. By locating and highlighting issues immediately, organizations can reduce potential business risks and increase operational efficiency. Governance, Risk and Compliance also helps to reduce compliance costs. Infor MES Today\u2019s fast-paced manufacturing environment demands complete, accurate, and accessible data from the shop floor. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 21",
+          "url": "content/M3 Sales Management.pdf#page=21"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "infor-mes"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00052",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 22 in 'Applications' (Mobility for Field Service) - detail 1: Explain 'Infor MES delivers the right information' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Infor MES delivers the right information at the right time to everyone from the shop floor to the top floor, providing precise and actionable intelligence in an integrated enterprise solution. These are the key capabilities of Infor MES: \u2022 Digital transformation by integrating with your ERP and plant equipment to digitize your shop floor and automate data collection \u2022 Transform the operator experience with real-time visibility and control to drive productivity and efficiency of shop floor users \u2022 Improve operational performance with built-in best practices that enable error proofing and systematic enforcement of business processes to improve quality \u2022 24/ resilience by being independent from your ERP whilst seamlessly synchronizing with it \u2022 Fast time-to-value with out-of-the box and easy to configure features to deploy solutions and deliver ROI faster, whilst reducing costs \u2022 For medium to large enterprises offering multi-site roll out",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 22",
+          "url": "content/M3 Sales Management.pdf#page=22"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "mobility-for-field-service"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00053",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 22 in 'Applications' (Mobility for Field Service) - detail 2: Explain 'MFS is built on the same' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "MFS is built on the same core technology framework as M3 Customer Lifecycle Management, but the customer can choose to use MFS stand-alone or combined with M3 Customer Lifecycle Management. MFS and M3 Customer Lifecycle Management share common data such as customers, contacts, and equipment. MFS also has two-way integration to Infor Document Management. This integration displays documents in M3 that are linked to the record in Infor M3, such as work orders, items, and services. Likewise, electronic media such as photos and videos, taken with the mobile app, are sent back to M3 and automatically indexed against the M3 records.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 22",
+          "url": "content/M3 Sales Management.pdf#page=22"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "mobility-for-field-service"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00054",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 22 in 'Applications' (Mobility for Field Service) - detail 3: Explain 'The MFS solution also uses apps' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The MFS solution also uses apps on the mobile device, including access to maps to display the location of the service assignment, and the device's phone to quickly call customers and contacts. MFS is available for M3 customers who run the work order process. MFS provides these capabilities: \u2022 Offline capabilities to allow the technician to continue working while disconnected from the network \u2022 Checklists and inspections with predefined drop-down values \u2022 New work orders, work requests and assignments can be created on the device \u2022 Reports, such as the service visit report, can be emailed directly to the customer contact \u2022 Assignment details \u2022 Customer and contact information Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 22",
+          "url": "content/M3 Sales Management.pdf#page=22"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "mobility-for-field-service"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00055",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 23 in 'Applications' (M3 Customer LifeCycle Management) - detail 1: Explain '\u2022 Equipment information including equipment details' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Equipment information including equipment details, service history, attributes, as-build structure and warranty information \u2022 Options to issue parts that were either predefined in M3 or allocated directly from the technician's van stock \u2022 The ability for the technician to confirm the receipt of parts that have been shipped to them \u2022 Update of equipment meter values \u2022 Assigning miscellaneous costs to the assignment, such as hotel costs or local purchases \u2022 Adding labor and travel time \u2022 Creation of a service error report, detailing issues, causes, and repairs \u2022 Ability to record both the customer's and the technician's signature on the device and then store these back in Infor Document Management \u2022 Support for a wide variety of statuses including Accept assignment, Start travel, Arrived, Start work, Stop work, Delayed work, Completed, etc. \u2022 A variety of search and sort options to help technicians quickly find the information they need",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 23",
+          "url": "content/M3 Sales Management.pdf#page=23"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-customer-lifecycle-management"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00056",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 23 in 'Applications' (M3 Customer LifeCycle Management) - detail 2: Explain 'M3 CLM will help build a' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 CLM will help build a strong corporate memory for each customer relationship. Because the cost of sales is high, automating sales department processes can result in cost savings and revenue increases. Use M3 CLM to help automate your sales process from the moment you receive a lead and to support you throughout the opportunity management phase through the quotation process to order entry. Salespersons can organize their scheduled day-to-day activities in a to-do list. They can view the to-do list according to various time scales such as today, this week, or this month.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 23",
+          "url": "content/M3 Sales Management.pdf#page=23"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-customer-lifecycle-management"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00057",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 23 in 'Applications' (M3 Customer LifeCycle Management) - detail 3: Explain 'It is easy for sales people' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "It is easy for sales people to see these scheduled activities in their calendar because M3 CLM can be interfaced with email and calendar systems. Using the M3 CLM mobile application, your sales teams can continue to manage their customer activities whilst on the road and event when working off-line. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 23",
+          "url": "content/M3 Sales Management.pdf#page=23"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-customer-lifecycle-management"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00058",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 24 in 'Applications' (M3 Portals) - detail 1: Explain 'M3 Planning Workbench Infor M3 PWB' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Planning Workbench Infor M3 PWB - Planning Workbench supports material and capacity planning on grouped or detailed level. The concept of macro-orders in M3 allows you to aggregate manufacturing orders across groups of items and/or operations. The aggregation of your plan on a macro-order level allows you to remove unnecessary levels of details while establishing a master plan. The plan can be visualized and established across multiple sites when producing intermediate and final products in different plants.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 24",
+          "url": "content/M3 Sales Management.pdf#page=24"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-portals"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00059",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 24 in 'Applications' (M3 Portals) - detail 2: Explain 'M3 Portals M3 Portals is a' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Portals M3 Portals is a highly configurable platform designed to deliver on-line self-service portal applications for M3\u2019s customers to collaborate with users and their end-customers, suppliers, contractors, etc. The end-users can access the portals through devices supporting web browsers and rigid security ensures that end-users can only see and access their information. Three pre-configured portal templates are currently available to customers of the M3 Portals. Issue Management Portal The self-service Issue Management Portal improves efficiency and collaboration between you and your customers.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 24",
+          "url": "content/M3 Sales Management.pdf#page=24"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-portals"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00060",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 24 in 'Applications' (M3 Portals) - detail 3: Explain 'It contains features for Issue Management' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "It contains features for Issue Management and enables you to create, monitor and action issues and their resultant corrective actions. A typical process flow can include these tasks: \u2022 Entering claims or issues through a web portal \u2022 Linking claim or issues to M3 orders \u2022 Automated processing using predefined actions \u2022 Actions related to M3 transactions \u2022 Connecting to existing M3 processes Equipment Portal The Equipment Portal provides end-customers with access to their company, equipment, service, and rental information including: \u2022 Maintaining company information such as addresses and contacts \u2022 Accessing equipment information such as service history and warranty details \u2022 Updating equipment meter values \u2022 Managing and creating rental agreements \u2022 Viewing or creating service requests \u2022 Viewing invoices Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 24",
+          "url": "content/M3 Sales Management.pdf#page=24"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "m3-portals"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00061",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 25 in 'Applications' (Supply Chain Planning) - detail 1: Explain '\u2022 Accessing electronic content (manuals, guides' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Accessing electronic content (manuals, guides, etc.) Supplier Portal The self-service Supplier Portal improves efficiency and collaboration between you and your suppliers. The portal provides your suppliers with features that they have been authorized by you to use, which include: \u2022 Viewing purchase orders of suppliers and updating confirmed price, quantity, and delivery date at order or line level \u2022 Rejecting a purchase order or lines \u2022 Attaching documents \u2022 Creating advanced shipment notices \u2022 Updating delivery note notifications \u2022 Viewing purchase agreements \u2022 Viewing products with a product catalog Supply Chain Planning Infor Supply Chain Planning is a software platform containing these modules: \u2022 Demand Forecasting for creating a statistical forecast \u2022 Supply Planning for creating a (cost-) optimized and constrained allocation of the supply. Infor Demand Forecasting Infor Demand Forecasting uses state-of-the-art technology, advan",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 25",
+          "url": "content/M3 Sales Management.pdf#page=25"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "supply-chain-planning"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00062",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 25 in 'Applications' (Supply Chain Planning) - detail 2: Explain 'These wizards generate a quick and' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "These wizards generate a quick and cost-efficient setup that leads to a swift time-to-value. Demand Forecasting encourages effective team collaboration, allows for diligent monitoring of plan performance, and refines operational goals to meet demand. This strategy ensures superior service levels at a reduced cost while keeping a sharp focus on customer satisfaction and adaptability in the market. Infor Supply Planning Infor Supply Planning is a component of Infor Supply Chain Planning.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 25",
+          "url": "content/M3 Sales Management.pdf#page=25"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "supply-chain-planning"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00063",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 25 in 'Applications' (Supply Chain Planning) - detail 3: Explain 'It facilitates a robust visual analysis' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "It facilitates a robust visual analysis and holistic review of your supply chain plans. Following the publication of the enterprise demand plans and inventory targets, Infor Supply Planning considers all relevant supply chain constraints and parameters to automatically calculate the best time-phased supply plans. These plans include purchase, production, inventory, and distribution plans and provide information on required replenishment using sophisticated planning engines based on heuristics and optimization. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 25",
+          "url": "content/M3 Sales Management.pdf#page=25"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "supply-chain-planning"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00064",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 26 in 'Applications' (Velocity Suite) - detail 1: Explain 'WMS Infor WMS is an advanced' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "WMS Infor WMS is an advanced warehouse management system. The solution combines core warehouse functionality with labor management, task management, wave management, and 3PL management on one highly configurable, scalable database. The contemporary user interface, combined with an open API framework, enables advanced features such as Web RF, 3D visual warehousing, WMS Analytics powered by Birst, and voice processing, allowing you to manage multiple channels (B2B/B2C) from a single warehouse. The benefits of WMS include reduced operating expenses, enhanced inventory visibility, just-in-time inventory, inbound and outbound optimization, efficient labor utilization, enhanced security, and improved customer and supplier relationships. Velocity Suite Infor Velocity Suite is a package of solutions, technologies, and services that innovates business processes by diagnosing areas of process improvements, automating manual tasks with prebuilt so",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 26",
+          "url": "content/M3 Sales Management.pdf#page=26"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00065",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 26 in 'Applications' (Velocity Suite) - detail 2: Explain 'The Velocity Suite includes these components' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The Velocity Suite includes these components: Value+ Infor Value+ is a catalog of solutions that can be added to an Infor ERP system. Each solution in the catalog leverages advanced technologies such as AI, GenAI, BaaS and RPA. Every solution in the Infor Value+ catalog is pre-built, allowing for rapid implementation and fast time-to-value. Value+ solutions are grouped into these three categories: \u2022 Value+ Enterprise Automations Include solutions that automate processes and workflows for improved operational efficiency. \u2022 Value+ Insights Include analytics and reporting solutions to facilitate better decision making and identify new opportunities for growth.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 26",
+          "url": "content/M3 Sales Management.pdf#page=26"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00066",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 26 in 'Applications' (Velocity Suite) - detail 3: Explain '\u2022 Value+ Advanced Workspaces Include a' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Value+ Advanced Workspaces Include a central location enhanced with AI insights and automations where you can view information and take action based on your role and day-to-day tasks. Process Mining Infor Process Mining applies process analytics to identify patterns and inefficiencies in organizational processes, supporting improved operational insight. As an add-on component of the Infor Process Intelligence (IPI) solution, Infor Process Mining analyzes transactional event data from Infor ERP systems to identify bottlenecks, anomalies, and improvement Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 26",
+          "url": "content/M3 Sales Management.pdf#page=26"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00067",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 27 in 'Applications' (Velocity Suite) - detail 1: Explain 'opportunities. It supports monitoring and analyzing' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "opportunities. It supports monitoring and analyzing business processes for discovery, conformance, performance, and benchmarking. The resulting insights assist with decision-making and enable ongoing process optimization, including process streamlining, resource optimization, and cost reduction. Process Mining includes these key benefits: \u2022 Fast end-to-end process visibility: Instantly visualizes how processes actually run across systems to uncover inefficiencies and deviations. \u2022 Improved efficiency and performance: Identifies bottlenecks and automation opportunities to streamline operations and reduce costs. \u2022 Uses generative AI to automatically generate clear, actionable summaries of process mining results. Accelerates insights with AI-driven narratives that explain process issues and suggest improvements.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 27",
+          "url": "content/M3 Sales Management.pdf#page=27"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00068",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 27 in 'Applications' (Velocity Suite) - detail 2: Explain '\u2022 Highly scalable and customizable: Adapts' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Highly scalable and customizable: Adapts to various business sizes and industries with flexible deployment and tailored configurations. \u2022 Advanced process analytics: Offers deep analysis tools like conformance checking and benchmarking to ensure process compliance and optimization. \u2022 Out-of-the-box widgets and industry catalog: Speeds up implementation with prebuilt dashboards and process templates tailored to specific industries. Robotic Process Automation Infor Robotic Process Automation enables businesses to automate their processes using software bots. These bots can replicate human actions or perform system tasks. They interact with Infor, non-Infor, browser-based, and on-premises systems. The RPA application can be used to perform these actions: \u2022 Automate processes across multiple software platforms \u2022 Handle repetitive data entry tasks \u2022 Set up rule-based automation for tasks like invoice processing and data analysis \u2022 Create i",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 27",
+          "url": "content/M3 Sales Management.pdf#page=27"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00069",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 27 in 'Applications' (Velocity Suite) - detail 3: Explain 'Specifically, it is a complete platform' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Specifically, it is a complete platform for document digitization, combined with RPA for text extraction and interpretation - part of the complex definition of process automation. Infor Document Processor (IDP) provides the capability to process and extract text and data from a business document, such as an invoice, purchase order, and packing list. IDP leverages OCR technology and GenAI models to efficiently digitize and process documents. The platform is enhanced with pre- and post\u2013processing steps of document text extraction. In the current phase, IDP supports the processing of .jpeg, .png, and .pdf file types. The IDP functionality is leveraged through API endpoints exposed in API Gateway under the Infor Document Processor API Suite. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 27",
+          "url": "content/M3 Sales Management.pdf#page=27"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00070",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 28 in 'Applications' (Velocity Suite) - detail 1: Explain 'IDP is used in many of' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "IDP is used in many of the Value+ solutions that involve processing a document. Infor Generative AI Infor Generative AI (GenAI) is the generative AI platform of Infor OS. It uses large language models (LLMs) to enable applications, including third-party applications, to use generative AI capabilities. GenAI assists users with tasks such as data and text generation, summarization, translation, contextualization, and analysis through its embedded experience capabilities. By integrating generative AI into these tasks, companies can save time, improve productivity, and enhance employee efficiency across various business applications. Infor GenAI is used in many of the Value+ solutions for various types of translation, document scanning with IDP, and text generations. Infor Artificial Intelligence Infor Artificial Intelligence (Infor AI) provides a set of tools for creating, managing, and deploying predictive and prescriptive models.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 28",
+          "url": "content/M3 Sales Management.pdf#page=28"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00071",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 28 in 'Applications' (Velocity Suite) - detail 2: Explain 'By combining multiple machine learning (ML)' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "By combining multiple machine learning (ML) algorithms with advanced intelligence technologies and knowledge-engineered decision logic, enterprises use Infor AI to increase sales, reduce costs, enhance efficiency, and generate insights. Infor AI focuses on creating value through predictive and prescriptive analytics, empowering smarter and more efficient business decisions. To achieve this goal, Infor industry AI provides: \u2022 Machine learning based on predictive analytics concepts \u2022 Optimization based on prescriptive analytics concepts Infor AI is used in many Value+ solutions to support a wide range of intelligent capabilities, such as anomaly detection, name similarity matching, forecasting, and email summarization. Backend as a Service Infor Backend-as-a-Service (BaaS) provides a cloud-native framework for creating serverless APIs and microservices, supports full API lifecycle management, and facilitates Function-as-a-Service solution",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 28",
+          "url": "content/M3 Sales Management.pdf#page=28"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00072",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 28 in 'Applications' (Velocity Suite) - detail 3: Explain 'It streamlines the entire API lifecycle' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "It streamlines the entire API lifecycle, from development to deployment, helping businesses build scalable integrations with reduced overhead and improved efficiency. Infor BaaS enhances how businesses connect their systems by offering seamless integration capabilities between Infor products and third-party applications. With support for Java and TypeScript programming languages, developers can create custom APIs that invoke existing services, customize Infor APIs, and build event-driven functions with greater ease. The integrated Visual Studio Code extension supports development workflows by providing local development capabilities with streamlined cloud deployment. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 28",
+          "url": "content/M3 Sales Management.pdf#page=28"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "velocity-suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00073",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 29 in 'Applications' (Third-Party Applications) - detail 1: Explain 'Third-Party Applications M3 Core supports optional' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Third-Party Applications M3 Core supports optional integration with these third-party products. AvaTax The M3 integration to AvaTax is used to manage the requirements of US and Canadian sales tax. It sends and receives specific business information to and from various Infor M3 applications so that a sales tax decision can be made. The required tax calculations are performed within AvaTax and the result of these calculations is both stored within AvaTax and returned to the Infor M3 applications to complete the quotation or invoicing process. M3 Credit Card Interface using CenPOS Use the Credit Card Interface to accept credit card payments for M3 Customer Orders. M3 Cloud supports integration with CenPOS only.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 29",
+          "url": "content/M3 Sales Management.pdf#page=29"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "third-party-applications"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00074",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 29 in 'Applications' (Third-Party Applications) - detail 2: Explain 'CenPOS provides an online payment system' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "CenPOS provides an online payment system and offers a \u201cPayment-as-a-Service\u201d model. The M3 integration supports both the \u201cCollect Payment at Order entry\u201d and \u201cAuthorize at Order Entry and collect at Invoicing\u201d models. Communication between the M3 interface and CenPOS is PCI-compliant. CenPOS then communicates with the relevant credit card processing company. It is possible, as a Services engagement, to utilize another online payment provider for the \u201cCollect Payment at Order entry\u201d model, provided they offer a similar \u201cPayment-as-a-Service\u201d model. This is not possible for the \u201cAuthorize at Order Entry and collect at Invoicing\u201d model.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 29",
+          "url": "content/M3 Sales Management.pdf#page=29"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "third-party-applications"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch04-applications/00075",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch04-applications",
+      "question": "Page 29 in 'Applications' (Third-Party Applications) - detail 3: Explain 'SPS Commerce EDI SPS Commerce is' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "SPS Commerce EDI SPS Commerce is the leading provider of cloud-based EDI solutions with over 90, trading partner connections and a full-service network approach. Vertex O-Series The M3 integration to Vertex O-Series is used to manage the requirements of US and Canadian sales tax. It sends and receives specific business information to and from various Infor M3 applications so that a sales tax decision can be made. The required tax calculations are performed within Vertex O-Series and the result of these calculations is both stored within Vertex O-Series and returned to the Infor M3 applications to complete the quotation or invoicing process. Infor CloudSuite Food and Beverage Solution Overview | Applications",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 29",
+          "url": "content/M3 Sales Management.pdf#page=29"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "applications",
+        "third-party-applications"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00076",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 30 in 'Analytics and Reporting' (Birst Enterprise) - detail 1: Explain 'Chapter 3: Analytics and Reporting Analytics' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Chapter 3: Analytics and Reporting Analytics Platform With Infor Analytics Platform, you can achieve a new level of insight with pre-built, industry-specific best practice metrics, role-based dashboards, and reports for various levels of your organization. As part of its industry application solutions, Infor provides a business intelligence experience that is embedded into the core of the application. Infor Analytics Platform includes these capabilities: \u2022 Pre-built, industry-specific data models with Modeler Prepare and Relate. \u2022 Integration with Infor OS and connections to Infor Data Lake for a seamless user experience with in-context analytic workspace widgets. \u2022 Interactive and responsive dashboards with drag-and-drop creation, drill-anywhere, and filtering capabilities. \u2022 Interactive analytic dashboards with Birst Mobile for iOS and Android. \u2022 Ad hoc data discovery and visual analysis with Visualizer. \u2022 Pixel-perfect report writer ",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 30",
+          "url": "content/M3 Sales Management.pdf#page=30"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "birst-enterprise"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00077",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 30 in 'Analytics and Reporting' (Birst Enterprise) - detail 2: Explain 'Birst Enterprise With Infor Birst Enterprise' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Birst Enterprise With Infor Birst Enterprise, you can enable data-driven decision-making and deliver better outcomes across the enterprise. As part of Infor\u2019s modern data architecture, Birst Enterprise enables any user to take their analysis in any direction. With a flexible and business-centric approach to managing data, Birst is secure, scalable, and adaptable. Infor recommends Birst Enterprise for all industry applications. In addition to all of the features of Infor Analytics Platform, Birst Enterprise includes these capabilities: \u2022 Access to 3rd party cloud or on-premises data sources with Modeler Connect and Live Access. \u2022 Blend analytics across Infor applications and pre-built content with Networked Analytics. \u2022 Automated personalized dashboards with AI-driven Smart Insights. \u2022 Self-service data prep on 3rd party data.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 30",
+          "url": "content/M3 Sales Management.pdf#page=30"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "birst-enterprise"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00078",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 30 in 'Analytics and Reporting' (Birst Enterprise) - detail 3: Explain '\u2022 Access to the business semantic' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Access to the business semantic layer from 3rd party applications with Open Client Interface. \u2022 Analytics on the go, with Offline Mobile. \u2022 Ability to extend business intelligence and analytics to more users beyond CloudSuite users. \u2022 Ability for decentralized teams to create new analytics projects with centralized governance. \u2022 Transfer of analytics to customers, partners, and suppliers. Infor CloudSuite Food and Beverage Solution Overview | Analytics and Reporting",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 30",
+          "url": "content/M3 Sales Management.pdf#page=30"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "birst-enterprise"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00079",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 31 in 'Analytics and Reporting' (M3 Analytics) - detail 1: Explain 'EPM Infor Enterprise Performance Management (Infor' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "EPM Infor Enterprise Performance Management (Infor EPM) is a suite of financial applications that run on the Infor EPM. It includes applications that address requirements for budgeting and planning, reporting and analytics. The Infor EPM business application is Infor Budgeting & Planning with the Workforce Budgeting module. M3 Analytics M3 Analytics for Infor M3 Cloud and relevant CloudSuites is a standard content product that provides a unique value proposition for the M3 industry CloudSuite customers by embedding cloud-based, industry-specific analytics content at the core of the CloudSuite. The solution offers reporting and decision support capabilities specifically tailored to the industry and built closely aligned with Infor Process Catalog.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 31",
+          "url": "content/M3 Sales Management.pdf#page=31"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "m3-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00080",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 31 in 'Analytics and Reporting' (M3 Analytics) - detail 2: Explain 'Using this solution, you can access' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Using this solution, you can access business-critical insight across the industry CloudSuite. M3 Analytics is designed as a starter pack to facilitate the implementation of a BI strategy within an M3 industry CloudSuite. To ensure that all aspects of the solution will work to your advantage, you must consider the configuration of M3 processes and data, and apply changes depending on how M3 is configured. The key performance indicators (KPIs) provide key strategic and tactical information to senior executives and business managers to help them steer their business. Each of the M3 Analytics domains provides rich data models containing metrics and attributes, accessible through the Birst subject areas.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 31",
+          "url": "content/M3 Sales Management.pdf#page=31"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "m3-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00081",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 31 in 'Analytics and Reporting' (M3 Analytics) - detail 3: Explain 'M3 Analytics also provides dashboards with' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Analytics also provides dashboards with reports designed as working examples, which are derived from the rich subject area of each domain, to either be used directly or copied, depending on customers' specific requirements. These are the M3 Analytics domains: \u2022 Sales (Sales Orders, Sales Analysis, Sales Budget, White Space, and Delivery Performance) \u2022 Finance (AR Balances, AR Invoices, Finance Key Ratio, General Ledger, AP Operational Metrics, and Stock Valuation) \u2022 Procurement (Open Purchase Orders and Procurement Analysis) \u2022 Production (Work Center Utilization, Operational Analysis, Overall Equipment Effectiveness, and Order Costing) \u2022 Rental (Rental Utilization and Rental Metrics) \u2022 Equipment (Technician Performance, Labor Resource Analysis, and Warranty Claims) \u2022 Warehouse (Stock Statistics, Stock Balance, and Stock Transactions) \u2022 Customer Lifecycle (Account, Activity, Campaign, Contact, and Opportunity) Rental Metrics The M3 Re",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 31",
+          "url": "content/M3 Sales Management.pdf#page=31"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "m3-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00082",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 32 in 'Analytics and Reporting' (M3 Analytics) - detail 1: Explain 'a team. Additionally, CLM Analytics supports' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "a team. Additionally, CLM Analytics supports contact management by providing insights around the quality of the contacts\u2019 data available within CLM.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 32",
+          "url": "content/M3 Sales Management.pdf#page=32"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "m3-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00083",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 32 in 'Analytics and Reporting' (M3 Analytics) - detail 2: Explain 'This part of M3 Analytics also' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "This part of M3 Analytics also runs alongside the M3 CLM integration to Data Lake. WMS Integration The M3 Analytics Warehouse domain contains an inventory reconciliation model designed to compare stock balances between M3 and WMS.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 32",
+          "url": "content/M3 Sales Management.pdf#page=32"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "m3-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch05-analytics-and-reporting/00084",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch05-analytics-and-reporting",
+      "question": "Page 32 in 'Analytics and Reporting' (M3 Analytics) - detail 3: Explain 'This content has been added to' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "This content has been added to accompany the M3 WMS integration. Infor CloudSuite Food and Beverage Solution Overview | Analytics and Reporting",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 32",
+          "url": "content/M3 Sales Management.pdf#page=32"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "analytics-and-reporting",
+        "m3-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch06-localizations/00085",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch06-localizations",
+      "question": "Page 33 in 'Localizations' (Localization Services GEMS) - detail 1: Explain 'Chapter 4: Localizations Localization Services Infor' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Chapter 4: Localizations Localization Services Infor Localization Services offers a set of services and functions that run on a single platform with Infor OS. These services extend the footprint of the core ERP, so that a global localization platform is offered that is updated in response to change. The set of functions can be classified into these types of proprietary format: \u2022 Electronic submissions, which are processed in Infor Localization Services Platform (LSP) \u2022 Electronic messages (GEMS), which are processed in ION Localization Services Platform Infor Localization Services Platform (LSP) helps customers meet the local regulatory, statutory, and cultural requirements of a country.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 33",
+          "url": "content/M3 Sales Management.pdf#page=33"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "localizations",
+        "localization-services-gems"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch06-localizations/00086",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch06-localizations",
+      "question": "Page 33 in 'Localizations' (Localization Services GEMS) - detail 2: Explain 'It is connected to ERPs through' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "It is connected to ERPs through standard Infor BODs and uses business knowledge to create submissions. Depending on the type of function, the data can be automatically transformed to proprietary format or prepared for reporting within the service, allowing the user to check and confirm what is sent to the external agency prior to submission. The submission is then tracked and logged for audit purposes, with all responses required by the ERP returned as required.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 33",
+          "url": "content/M3 Sales Management.pdf#page=33"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "localizations",
+        "localization-services-gems"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch06-localizations/00087",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch06-localizations",
+      "question": "Page 33 in 'Localizations' (Localization Services GEMS) - detail 3: Explain 'The functions in LSP can be' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The functions in LSP can be categorized into these types of files: \u2022 e-Auditing provides a set of electronic submissions that allow auditing information to be collated, checked, and sent to the requesting government or accounting organization \u2022 e-Invoicing provides a set of electronic submissions that are used to create electronic sales invoices that can be sent directly to customers. \u2022 Tax reports \u2022 Electronic transportation documents \u2022 Statutory reports Localization Services GEMS Infor Localization Services GEMS (Global Electronic Messaging Services) is an electronic messaging solution that helps customers meet the local regulatory, statutory, and cultural requirements of a country. It is a black Infor CloudSuite Food and Beverage Solution Overview | Localizations",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 33",
+          "url": "content/M3 Sales Management.pdf#page=33"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "localizations",
+        "localization-services-gems"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch06-localizations/00088",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch06-localizations",
+      "question": "Page 34 in 'Localizations' (M3 Localizations) - detail 1: Explain 'box solution within Infor ION that' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "box solution within Infor ION that automatically transforms BOD data into a proprietary message without going through the logic of Infor Localization Services Platform. GEMS messages can be categorized into these file types: \u2022 Banking includes a set of electronic messages that enables supplier payments and direct debits to be created for banks and other financial institutions, such as clearing houses, according to the standard of an organization, government, or financial institution. Bank statements sent by the bank can also be consumed by the ERP for payment matching and reconciliation.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 34",
+          "url": "content/M3 Sales Management.pdf#page=34"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "localizations",
+        "m3-localizations"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch06-localizations/00089",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch06-localizations",
+      "question": "Page 34 in 'Localizations' (M3 Localizations) - detail 2: Explain '\u2022 Trade statistics provides a set' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Trade statistics provides a set of electronic messages for regulatory reporting of commerce and goods movements across country borders, such as Intrastat and EU Sales Listing for Europe. \u2022 Supplier Invoices \u2022 Tax Reports M3 Localizations M3 Country Versions includes translations and M3 Core functionality to support business habits and regulatory requirements, leveraging on Infor Localization Services, for more than seventy countries. Each country version includes a Fact Sheet to define the solution, and country specific configuration guides.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 34",
+          "url": "content/M3 Sales Management.pdf#page=34"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "localizations",
+        "m3-localizations"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch06-localizations/00090",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch06-localizations",
+      "question": "Page 34 in 'Localizations' (M3 Localizations) - detail 3: Explain 'Infor CloudSuite Food and Beverage Solution' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Infor CloudSuite Food and Beverage Solution Overview | Localizations",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 34",
+          "url": "content/M3 Sales Management.pdf#page=34"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "localizations",
+        "m3-localizations"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00091",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 35 in 'Technology Platform' (Infor OS) - detail 1: Explain 'Chapter 5: Technology Platform CloudSuite Self-Service' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Chapter 5: Technology Platform CloudSuite Self-Service Portal CloudSuite Self-Service Portal (CSSP) is a tool that enables you to perform certain self-service administrative functions on your Cloud environments. lnfor uses the CSSP for provisioning infrastructure, managing customer environments, and performing automated actions on the Cloud environments. Configuration Management is a self-service feature that is in CSSP. Use Configuration Management and your Infor application to copy resources from one of your organization's tenants to another tenant. For example, copy TST to PRD.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 35",
+          "url": "content/M3 Sales Management.pdf#page=35"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00092",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 35 in 'Technology Platform' (Infor OS) - detail 2: Explain 'The information exported from the source' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The information exported from the source tenant is referred to as a local package. Local packages are specific to your company. No other company can access the local packages that your company creates. Parts of the Configuration Management functionality are controlled within CSSP, and parts are controlled within your specific Infor application. Configuration Management is available only to administrative users of CSSP.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 35",
+          "url": "content/M3 Sales Management.pdf#page=35"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00093",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 35 in 'Technology Platform' (Infor OS) - detail 3: Explain 'Infor OS Infor OS is a' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Infor OS Infor OS is a cloud operating platform that seamlessly connects services to provide a robust integration framework and serve as the foundation of an entire business ecosystem. Infor OS brings business processes together to enable rapid application development and a common data strategy, all built using service-design principles in a unified experience that allows customers to be flexible and agile in the cloud. Infor OS is a platform designed for creating competitive advantages through innovation. This convergence of technology allows for enterprise-wide innovation in areas, such as: \u2022 Integration and automation \u2022 Enterprise user experience \u2022 Security and compliance \u2022 Data fabric \u2022 Application development \u2022 Intelligent process automation \u2022 Applied machine learning Infor OS includes these components: \u2022 Infor OS Portal Infor CloudSuite Food and Beverage Solution Overview | Technology Platform",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 35",
+          "url": "content/M3 Sales Management.pdf#page=35"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00094",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 36 in 'Technology Platform' (Infor OS) - detail 1: Explain '\u2022 Infor ION or ION Desk' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Infor ION or ION Desk \u2022 API Gateway or ION API \u2022 Infor Document Management \u2022 Infor Mongoose \u2022 Infor Coleman Digital Assistant \u2022 Infor Artificial Intelligence Infor OS Portal Designed to maximize performance while providing you with the best possible user experience, Infor OS Portal is the common user interface for your Infor CloudSuite, incorporated features, and your third-party or custom applications. Preconfigured Workspaces created for the most common roles in your industry provide value out of the box, while robust configurability and extensibility provide the opportunity for personalization. Infor OS Portal also includes Smart Panel, providing a single access point for contextual insights and key application content to help you work smarter by providing the right information at the right time. ION or ION Desk Infor ION or ION Desk is a business process management platform that integrates applications, people, and business proces",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 36",
+          "url": "content/M3 Sales Management.pdf#page=36"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00095",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 36 in 'Technology Platform' (Infor OS) - detail 2: Explain 'Infor ION or ION Desk simplifies' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Infor ION or ION Desk simplifies the connectivity and data sharing across the connected applications. It enables users to configure a routed infrastructure, set up workflows, and design and activate business event monitors and manage tasks and alerts. Managed within ION or ION Desk, Infor Data Lake is a data repository that provides high-volume, scalable object storage for real-time data from across your enterprise systems, disparate applications, and users. Using ION or ION Desk to connect your data sources, Infor applications move content into Data Lake and use other consuming applications to query and navigate Data Lake for content related to specific business cases. API Gateway or ION API The API Gateway is a component of Infor OS that is used for brokering requests from API consumers, such as web and mobile applications, and API providers, such as Infor EPM, or third-party services.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 36",
+          "url": "content/M3 Sales Management.pdf#page=36"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00096",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 36 in 'Technology Platform' (Infor OS) - detail 3: Explain 'As a broker, the API sits' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "As a broker, the API sits between consumers and providers. It can provide benefits to both consumers and providers. Infor CloudSuite Food and Beverage Solution Overview | Technology Platform",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 36",
+          "url": "content/M3 Sales Management.pdf#page=36"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00097",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 37 in 'Technology Platform' (Infor OS) - detail 1: Explain 'The API Gateway or ION API' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The API Gateway or ION API is used by many integrated applications that use API calls to expose business logic using HTTP protocols. Infor EPM uses the API to consume API services that allow access to its business logic in a secure manner. The API Gateway or ION API is a server that acts as an API front-end to Infor products. It receives API requests and enforces throttling and security policies. The API Gateway passes requests to the back-end service, and then passes the response back to the requester. It includes a transformation engine to orchestrate and modify the requests and responses on the fly, and provides functionality such as the collection of analytics data and caching. You can use the API Gateway to support authentication, authorization, security, audit, and regulatory compliance.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 37",
+          "url": "content/M3 Sales Management.pdf#page=37"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00098",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 37 in 'Technology Platform' (Infor OS) - detail 2: Explain 'Previously provisioned Infor cloud instance customers' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Previously provisioned Infor cloud instance customers not already using the API Gateway or ION API must work with to provision the API Gateway or ION API to their cloud instances. Document Management Infor Document Management is an enterprise document management application that is used to integrate your documents with your business processes and to provide a central repository for them. Users can click a document link to retrieve the document from the central repository or can view a document from within the context of their application. Infor Document Management supports the entire lifecycle of your business documents, from input through storage, retrieval, sharing, and deletion. OS App Designer Infor OS App Designer is an extensible application design tool that is part of the Infor OS Portal platform and is designed as a cloud-based development framework. With Infor OS App Designer, users can develop widgets for OS Portal, using a no",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 37",
+          "url": "content/M3 Sales Management.pdf#page=37"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00099",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 37 in 'Technology Platform' (Infor OS) - detail 3: Explain 'You can also use Mongoose to' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "You can also use Mongoose to enhance and extend your core enterprise solution. Mongoose requires no knowledge of complex source codes or programming languages. You can create enhancements and extensions for Mongoose-based applications in a fraction of the time and with far less effort than is required with traditional development approaches. With Infor OS technology, Mongoose also delivers exciting new functionality, including: \u2022 Packaged integrations: Flexible connections to Infor solutions using Infor ION. \u2022 Device readiness: Automatic delivery for both browser and mobile interfaces. Infor CloudSuite Food and Beverage Solution Overview | Technology Platform",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 37",
+          "url": "content/M3 Sales Management.pdf#page=37"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "infor-os"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00100",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 38 in 'Technology Platform' (M3 Core Infrastructure and Technology) - detail 1: Explain '\u2022 Deployment flexibility: Cloud-based and hybrid' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Deployment flexibility: Cloud-based and hybrid deployments, as well as on-premises installation and use. Mongoose is currently the base platform used by a number of Infor applications, including Infor SyteLine,Infor Factory Track, and others. App Builder Infor App Builder is an application design tool that is incorporated with and can be run from within Infor Mongoose. As part of the Infor Technology Suite, it can also run within and in the cloud as part of a multi-tenant offering. App Builder apps can also be used as Mongoose forms, so that if you want to move beyond the capabilities of apps you have in App Builder, you can open them in Mongoose Design Mode and continue to develop them as Mongoose forms.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 38",
+          "url": "content/M3 Sales Management.pdf#page=38"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "m3-core-infrastructure-and-technology"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00101",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 38 in 'Technology Platform' (M3 Core Infrastructure and Technology) - detail 2: Explain 'App Builder is designed to build' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "App Builder is designed to build basic apps using an intuitive WYSIWYG user interface. App Builder offers drag-and-drop of UI components, a data service layer to connect with APIs, and an interaction wizard to set up how the components of your app interact with each other. The App Hub is a repository where all published and activated App Builder apps are stored and can be viewed or used. Smart Help Smart Help is an in-context Widget part of Infor OS Portal that provides application users with access to documentation, support, and training content. Smart Help can connect to several content repositories, including Infor product documentation, Knowledge Base articles, training materials, and customer documents to provide in-context content for the end user.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 38",
+          "url": "content/M3 Sales Management.pdf#page=38"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "m3-core-infrastructure-and-technology"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch07-technology-platform/00102",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch07-technology-platform",
+      "question": "Page 38 in 'Technology Platform' (M3 Core Infrastructure and Technology) - detail 3: Explain 'As a user navigates their Infor' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "As a user navigates their Infor application, Smart Help queries the content repositories and returns relevant content. Smart Help has been enabled for this CloudSuite. M3 Core Infrastructure and Technology Infor M3 Core Infrastructure and Technology provides the runtime platform that consists of different software components that are mandatory for all M3 Business Engine modules, and and it provides tools for administration, maintenance, and monitoring. Infor CloudSuite Food and Beverage Solution Overview | Technology Platform",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 38",
+          "url": "content/M3 Sales Management.pdf#page=38"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "technology-platform",
+        "m3-core-infrastructure-and-technology"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00103",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 39 in 'Extending the Solution' (General section) - detail 1: Explain 'Chapter 6: Extending the Solution Infor' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Chapter 6: Extending the Solution Infor CloudSuites are designed to be industry specific. Each CloudSuite contains a core (ERP) product like M3 that is configured according to the processes used in the specific industry. Despite the industry focus of the solution, you can require variants of specific processes that are not supported by the available solution. While each CloudSuite supports different industries and micro verticals with different needs, two companies are not exactly alike. This implies that the design principles around M3 are: \u2022 Flexible: parameterized policies, concepts, etc.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 39",
+          "url": "content/M3 Sales Management.pdf#page=39"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00104",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 39 in 'Extending the Solution' (General section) - detail 2: Explain 'All delivered with standard software solutions' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "All delivered with standard software solutions such as Infor M3. \u2022 Possible to personalize: adapt menus, screens, and workflows to personal needs and preferences. \u2022 Extensible: extensions to the standard functionality to fulfill needs that cannot be covered by the standard software. \u2022 Interoperable: CloudSuites never run in isolation. Upstream and downstream processes and systems must be connected to the Infor CloudSuites for the exchange of static and transactional data.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 39",
+          "url": "content/M3 Sales Management.pdf#page=39"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00105",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 39 in 'Extending the Solution' (General section) - detail 3: Explain 'The extent to which a product' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The extent to which a product is extensible is driven by these conflicting requirements: \u2022 The software must be flexible and extensible so that the diverse needs of Infor\u2019s customers can be satisfied. \u2022 The tenants that are provisioned from a shared cloud infrastructure do not impact each other when extending the software, in terms of functionality, stability, and performance. \u2022 Extensions do not impact or conflict with the continuous update and delivery process that is in place to deliver updates and improvements to the software. To provide a clear response to the question of what the opportunities and restrictions for M3 are in a cloud deployment context, the following topics are presented and discussed: \u2022 Personalization options \u2022 Business process tailoring options \u2022 Extensibility options The extensibility options contains the following subtopics: \u2022 Integrated solutions \u2022 Extension of M3 business logic and data \u2022 Reporting \u2022 BI and A",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 39",
+          "url": "content/M3 Sales Management.pdf#page=39"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "general-section"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00106",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 40 in 'Extending the Solution' (Personalization Options) - detail 1: Explain 'Personalization Options The purpose of the' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Personalization Options The purpose of the personalization possibilities is to enable a tailored experience that matches each user\u2019s needs. You can easily create own personal version of a panel. Visual changes Visual changes to the panels are divided into the following categories: \u2022 Conditional styles \u2022 Labels texts \u2022 Show or hide fields Behavior changes Behavior changes are divided into these categories: \u2022 Hyperlinks in lists \u2022 Links in toolbox area \u2022 Panel order \u2022 Tab order \u2022 Scripts \u2022 Saved searches \u2022 Document links Infor OS Workspace personalization Infor OS Workspace can be used to create a personalized experience where the user can find links to specific tasks and functions and where relevant task-oriented information is displayed.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 40",
+          "url": "content/M3 Sales Management.pdf#page=40"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "personalization-options"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00107",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 40 in 'Extending the Solution' (Personalization Options) - detail 2: Explain 'For further information about Homepages, refer' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "For further information about Homepages, refer to the Infor OS User Guide. Workspace widgets M3 supports several workspace widgets and these can be used to organize and customize the way that users work with the system. These widgets are delivered together with Infor OS and are activated when M3 is used as an application inside Infor OS.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 40",
+          "url": "content/M3 Sales Management.pdf#page=40"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "personalization-options"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00108",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 40 in 'Extending the Solution' (Personalization Options) - detail 3: Explain 'The main M3 specific workspace widgets' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The main M3 specific workspace widgets are: \u2022 M3 Information Viewer \u2022 M3 Information Monitor \u2022 M3 Environment \u2022 M3 Product Updates \u2022 What\u2019s New information Additionally, a range of task-specific process widgets is available. Infor CloudSuite Food and Beverage Solution Overview | Extending the Solution",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 40",
+          "url": "content/M3 Sales Management.pdf#page=40"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "personalization-options"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00109",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 41 in 'Extending the Solution' (Extensibility) - detail 1: Explain 'Business Process Tailoring Options Introduction Most' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Business Process Tailoring Options Introduction Most of the tailoring in M3 is enabled by the different settings which change the behavior of the system. Because there are more than 5, different settings, the possibility for variation is infinite. To guide the users on how to setup the system, validations are included in each setup program and these prohibit certain combinations of settings. There are also other resources available to guide the project in their implementation phase by providing recommended settings, for example Industry Process Catalog packages. Industry Process Catalog The Industry Process Catalog is a database that has been preconfigured with the most common processes, including settings and data, corresponding to a specific industry. By using an Industry Process Catalog package, the implementation project can quickly reach a point where they can verify the recommended setup and evaluate the pre-configured processes w",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 41",
+          "url": "content/M3 Sales Management.pdf#page=41"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "extensibility"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00110",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 41 in 'Extending the Solution' (Extensibility) - detail 2: Explain 'Currently, M3 contains IPCs for the' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Currently, M3 contains IPCs for the listed industries. These can be accessed from the documentation lists for each of the industries on http://docs.infor.com: \u2022 Chemicals \u2022 Distribution Enterprise \u2022 Equipment \u2022 Fashion \u2022 Food & Beverage \u2022 M3 (General Manufacturing) MicroVertical editions are also available for some industries. Extensibility An extension is a next step in adapting the application to the customer\u2019s needs. Instead of modifying the look and feel of the system, additional fields, and business logic can be added to the system. Also, the capability to communicate with other applications in the IT landscape and beyond is available. Within a CloudSuite, all components work together seamlessly.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 41",
+          "url": "content/M3 Sales Management.pdf#page=41"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "extensibility"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00111",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 41 in 'Extending the Solution' (Extensibility) - detail 3: Explain 'Given that, Infor CloudSuites form part' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Given that, Infor CloudSuites form part of system landscape, integration with upstream and downstream third-party systems are a standard requirement for each implementation. The main principle of extending M3 is that it does not change the source code of the different parts in M3, for example, the Java source code of M3 BE. Furthermore, the extensions are typically performed using tooling that is not necessarily specific to M3. This can either be tooling provided by Infor or other external tooling. These are the main ways to extend M3: Infor CloudSuite Food and Beverage Solution Overview | Extending the Solution",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 41",
+          "url": "content/M3 Sales Management.pdf#page=41"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "extensibility"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00112",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 42 in 'Extending the Solution' (Extension of M3 business Logic and Data) - detail 1: Explain '\u2022 Integrate to third-party solutions. \u2022' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "\u2022 Integrate to third-party solutions. \u2022 Extend without changing business logic using Infor tools like Infor OS, Workspaces, and ION Workflow. \u2022 Add unique customer data through M3 configurable objects (customer-defined fields). \u2022 Change M3 business logic and function behavior through the XtendM3 framework. \u2022 Create new business logic using Infor Mongoose, H5-SDK or Infor external tooling. M3 has excellent API support to extend the system. M3 also includes configurable events to trigger new functionality. Integration Solutions M3 has a significant support for asynchronous integration with third-party solutions through an integration layer known as the M3 Application Program Interface (API) layer.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 42",
+          "url": "content/M3 Sales Management.pdf#page=42"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "extension-of-m3-business-logic-and-data"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00113",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 42 in 'Extending the Solution' (Extension of M3 business Logic and Data) - detail 2: Explain 'M3 contains more than different API' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 contains more than different API transactions making a large part of the M3 business logic directly accessible by other applications. External client\u2019s access M3 APIs through the REST API interface via the API Gateway or ION API and using OAuth 2. The recommended solution for retrieval of larger amounts of data and data synchronizations to external systems are data retrieval through Infor Data Lake. Infor Data Lake is continuously updated by M3 and its data is close to real time. Find additional information in the ION Development Guide, chapter 15, Data Lake queries, and in KB2186646. Extension of M3 business Logic and Data Experience Designer M3 Experience Designer is a tool embedded in M3 H5, where you can build and customize applications based on your requirements. You can add and configure components on the application, such as index list, form, tab, data grid, application header, details header, and media. Each component is conf",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 42",
+          "url": "content/M3 Sales Management.pdf#page=42"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "extension-of-m3-business-logic-and-data"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00114",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 42 in 'Extending the Solution' (Extension of M3 business Logic and Data) - detail 3: Explain 'M3 APIs are used to supply' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 APIs are used to supply data to each component on the application. Note: To use Experience Designer, you must use the latest version of H5 version. If you are using the H5Classic, then the designer tool is not available from the M3 menu and you cannot run the applications that are created in the designer tool. XtendM3 framework The XtendM3 framework is built-in tooling that is designed to change M3 behavior or add new capabilities to exiting M3 functions. The XtendM3 coding is based on Groovy, a Java comparable coding framework. It consists of several key components listed below. Documentation of the XtendM3 framework can be found here. Infor CloudSuite Food and Beverage Solution Overview | Extending the Solution",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 42",
+          "url": "content/M3 Sales Management.pdf#page=42"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "extension-of-m3-business-logic-and-data"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00115",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 43 in 'Extending the Solution' (BI and Analytics) - detail 1: Explain 'Extend data structures The standard M3' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Extend data structures The standard M3 database schema cannot be changed by an extension. The XtendM3 framework contains capabilities to add new, tenant specific tables as well as tailored API transactions to both view and create/update the added information. These tables can either be viewed as an extension to a standard table or being completely separated to store unrelated data. Any data updated in these tables can generate standard events and thus trigger BODs, update Infor OS Data Lake, etc. Extend logic within M3 Several solutions offered by M3 are based on the availability of the M3 events. They are used both to synchronize data (trigger index update in IES) as well as trigger various actions, for example creating and sending BODs from M3, making API calls or a web-service call. Reporting The content of a report is created through M3 and then sent to an external output management application for layout design and distribution. Pl",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 43",
+          "url": "content/M3 Sales Management.pdf#page=43"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "bi-and-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00116",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 43 in 'Extending the Solution' (BI and Analytics) - detail 2: Explain 'A multi-level XML file is used' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "A multi-level XML file is used as the output format. The XML file is highly standardized and fully extensible by configuration. Labels (field headings) are sent in the XML file, that are already translated to correct language (based on user, customer or supplier). Numbers and dates follow the XML standard. The output functions are separated into these two types, documents and reports: \u2022 Documents Output classified as a document is normally intended to be used externally. The content of the XML includes, in addition to lines, the header, text, address, and summary sections. Normally, the layout is designed with portrait orientation. \u2022 Reports Output classified as a report is normally intended to be used internally.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 43",
+          "url": "content/M3 Sales Management.pdf#page=43"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "bi-and-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00117",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 43 in 'Extending the Solution' (BI and Analytics) - detail 3: Explain 'The main content of the XML' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "The main content of the XML is lines, but it can also include a minor header and summary. Normally, the layout is designed with landscape orientation. BI and Analytics M3 Analytics delivers analytical content for M3 powered by Infor Birst and Infor Data Lake. The content is designed to serve as a project accelerator allowing to tailor the solution to the specific customer needs. Infor is continuously enriching and extending the solution and is providing the updated content to be used by the customer. Infor CloudSuite Food and Beverage Solution Overview | Extending the Solution",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 43",
+          "url": "content/M3 Sales Management.pdf#page=43"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "bi-and-analytics"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00118",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 44 in 'Extending the Solution' (Recommended Tooling for Coding New Business Logic) - detail 1: Explain 'M3 Analytics content covers common modules' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "M3 Analytics content covers common modules reused amongst all industries, as well as specially tailored content for Food & Beverage, Fashion, and Equipment. The detailed level of the content allows customers to run it without modifications as a project starter but also allows for extension. M3 pre-configured analytics M3 Analytics covers these business domains: \u2022 Sales \u2022 Procurement \u2022 Warehouse \u2022 Production \u2022 Finance \u2022 Equipment \u2022 Rental \u2022 Opportunity Management Besides the above-mentioned domains, there is extended content for the Fashion Industry. Find the complete inventory of the solution in the corresponding M3 Analytics product guide.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 44",
+          "url": "content/M3 Sales Management.pdf#page=44"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "recommended-tooling-for-coding-new-business-logic"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00119",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 44 in 'Extending the Solution' (Recommended Tooling for Coding New Business Logic) - detail 2: Explain 'Recommended Tooling for Coding New Business' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Recommended Tooling for Coding New Business Logic M3 provides tooling that can be used to change or add new capabilities to existing M3 functions through the Xtend M3 framework. To create new functionality other tooling must be used such as Infor Mongoose or any open-source or proprietary tooling with relevant capabilities. Mongoose Mongoose is a rapid application development framework built on the concept of upgradeable extensibility using metadata to describe the application. It has a built-in form designer to allow UI enhancements and new forms creation.",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 44",
+          "url": "content/M3 Sales Management.pdf#page=44"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "recommended-tooling-for-coding-new-business-logic"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "m3-sales-management/ch08-extending-the-solution/00120",
+      "bookId": "m3-sales-management",
+      "chapterId": "ch08-extending-the-solution",
+      "question": "Page 44 in 'Extending the Solution' (Recommended Tooling for Coding New Business Logic) - detail 3: Explain 'Mongoose is also wired for the' and list the concrete admin rules, configuration points, or process steps from this page.",
+      "goodAnswer": "Mongoose is also wired for the Infor tech stack including the ION BOD data synchronization and Infor OS integration. The Mongoose AES (Application Event System) and task schedule permits the creation of both triggered and timed events that can be used to perform a variety of functions without coding. When necessary, .NET code modules can be created to respond to updates, consume web services and build custom logic. Infor CloudSuite Food and Beverage Solution Overview | Extending the Solution",
+      "docLinks": [
+        {
+          "label": "M3 Sales Management.pdf - page 44",
+          "url": "content/M3 Sales Management.pdf#page=44"
+        }
+      ],
+      "tags": [
+        "pdf-derived",
+        "page-specific",
+        "extending-the-solution",
+        "recommended-tooling-for-coding-new-business-logic"
+      ],
+      "difficulty": 2
+    }
+  ]
+}

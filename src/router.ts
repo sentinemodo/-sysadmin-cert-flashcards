@@ -1,7 +1,7 @@
 export type AppRoute =
   | { kind: 'home' }
-  | { kind: 'study'; chapterId?: string }
-  | { kind: 'exam'; chapterId?: string }
+  | { kind: 'study'; bookId?: string; chapterId?: string }
+  | { kind: 'exam'; bookId?: string; chapterId?: string }
   | { kind: 'history'; examId?: string }
   | { kind: 'settings' }
   | { kind: 'notFound' };
@@ -12,7 +12,7 @@ function segmentsFromHash(): string[] {
   return path.split('/').filter(Boolean);
 }
 
-/** Hash routes: `#/`, `#/study`, `#/study/:chapterId`, `#/exam/:chapterId`, `#/history/:examId?` */
+/** Hash routes: `#/`, `#/study/:bookId?/:chapterId?`, `#/exam/:bookId?/:chapterId?`, `#/history/:examId?` */
 export function parseHashRoute(): AppRoute {
   const parts = segmentsFromHash();
   const head = parts[0];
@@ -23,12 +23,18 @@ export function parseHashRoute(): AppRoute {
     case 'home':
       return { kind: 'home' };
     case 'study': {
-      const chapterId = parts[1];
-      return chapterId ? { kind: 'study', chapterId } : { kind: 'study' };
+      const bookId = parts[1];
+      const chapterId = parts[2];
+      if (bookId && chapterId) return { kind: 'study', bookId, chapterId };
+      if (bookId) return { kind: 'study', bookId };
+      return { kind: 'study' };
     }
     case 'exam': {
-      const chapterId = parts[1];
-      return chapterId ? { kind: 'exam', chapterId } : { kind: 'exam' };
+      const bookId = parts[1];
+      const chapterId = parts[2];
+      if (bookId && chapterId) return { kind: 'exam', bookId, chapterId };
+      if (bookId) return { kind: 'exam', bookId };
+      return { kind: 'exam' };
     }
     case 'history': {
       const examId = parts[1];

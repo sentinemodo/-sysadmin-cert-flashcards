@@ -68,7 +68,7 @@ export async function renderStudy(
 
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = `#/study/${ch.id}`;
+      a.href = `#/study/${deck.book.id}/${ch.id}`;
       a.textContent = ch.title;
       const meta = document.createElement('span');
       meta.className = 'meta';
@@ -122,7 +122,7 @@ export async function renderStudy(
       : 'No due cards in this chapter. Enable “cram” on the chapter list or come back later.';
     const nav = document.createElement('p');
     const a = document.createElement('a');
-    a.href = '#/study';
+    a.href = `#/study/${deck.book.id}`;
     a.textContent = '← Chapters';
     nav.appendChild(a);
     section.append(p, nav);
@@ -213,7 +213,7 @@ export async function renderStudy(
 
   const foot = document.createElement('p');
   const back = document.createElement('a');
-  back.href = '#/study';
+  back.href = `#/study/${deck.book.id}`;
   back.textContent = '← Chapters';
   foot.appendChild(back);
   section.appendChild(foot);

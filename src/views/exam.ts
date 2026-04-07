@@ -14,6 +14,7 @@ import type { Card, DeckContent } from '../types/content';
 import type { ExamResult, ExamResultPerCard, SelfGrade } from '../types/runtime';
 
 type ExamSession = {
+  bookId: string;
   chapterId: string;
   cards: Card[];
   index: number;
@@ -72,7 +73,7 @@ export async function renderExam(
       const total = chapterCards(deck, ch.id).length;
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = `#/exam/${ch.id}`;
+      a.href = `#/exam/${deck.book.id}/${ch.id}`;
       a.textContent = ch.title;
       const meta = document.createElement('span');
       meta.className = 'meta';
@@ -107,7 +108,7 @@ export async function renderExam(
     section.appendChild(empty);
     const back = document.createElement('p');
     const a = document.createElement('a');
-    a.href = '#/exam';
+    a.href = `#/exam/${deck.book.id}`;
     a.textContent = '← Chapters';
     back.appendChild(a);
     section.appendChild(back);
@@ -117,6 +118,7 @@ export async function renderExam(
 
   if (
     examSession &&
+    examSession.bookId === deck.book.id &&
     examSession.chapterId === chapterId &&
     examSession.index >= examSession.cards.length &&
     examSession.cards.length > 0
@@ -125,15 +127,24 @@ export async function renderExam(
     return;
   }
 
-  if (examResultView && examResultView.chapterId === chapterId) {
+  if (
+    examResultView &&
+    examResultView.bookId === deck.book.id &&
+    examResultView.chapterId === chapterId
+  ) {
     renderExamResult(outlet, deck, examResultView);
     return;
   }
 
-  if (!examSession || examSession.chapterId !== chapterId) {
+  if (
+    !examSession ||
+    examSession.bookId !== deck.book.id ||
+    examSession.chapterId !== chapterId
+  ) {
     const cards = drawExamCards(pool, n, Math.random);
     const startedAt = new Date().toISOString();
     examSession = {
+      bookId: deck.book.id,
       chapterId,
       cards,
       index: 0,
@@ -245,7 +256,7 @@ export async function renderExam(
 
   const foot = document.createElement('p');
   const back = document.createElement('a');
-  back.href = '#/exam';
+  back.href = `#/exam/${deck.book.id}`;
   back.textContent = '← Cancel (chapters)';
   back.addEventListener('click', () => {
     examSession = null;
@@ -323,7 +334,7 @@ function renderExamResult(outlet: HTMLElement, deck: DeckContent, result: ExamRe
     requestRerender();
   });
   const chapters = document.createElement('a');
-  chapters.href = '#/exam';
+  chapters.href = `#/exam/${deck.book.id}`;
   chapters.textContent = 'All chapters';
   chapters.addEventListener('click', () => {
     examResultView = null;

@@ -3,7 +3,8 @@ import type { DeckContent } from '../types/content';
 
 const docLinkSchema = z.object({
   label: z.string(),
-  url: z.string().url(),
+  // Accept both absolute docs URLs and app-local relative links (e.g. content/file.pdf#page=12).
+  url: z.string().min(1),
 });
 
 const bookSchema = z.object({

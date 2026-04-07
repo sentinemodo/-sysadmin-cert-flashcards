@@ -11,11 +11,84 @@ import { renderNotFound } from './views/notFound';
 import { renderSettings } from './views/settings';
 import { renderStudy } from './views/study';
 
-const CONTENT_URL = `${import.meta.env.BASE_URL}content/maag-11-2-1.json`;
+const CONTENT_FILES = [
+  'maag-11-2-1.json',
+  'm3-application-foundation.json',
+  'm3-business-controlling-user-guide-30072025-controlling.json',
+  'm3-financial-accounting.json',
+  'm3-financial-controlling.json',
+  'm3-sales-management.json',
+  'm3cloud-configfinaccounting-workbook-watermark.json',
+  'm3cloud-configuringadhocreports-workbook-watermark.json',
+  'm3cloud-configuringcostingandinternalaccounting-workbook-watermark.json',
+] as const;
+const ACTIVE_BOOK_STORAGE_KEY = 'activeBookId';
 
-let deck: DeckContent | null = null;
+let decks: DeckContent[] = [];
 let loadError: string | null = null;
 let navLinks: HTMLAnchorElement[] = [];
+let activeBookId: string | null = null;
+
+function updateBookScopedNavTargets(deck: DeckContent | null): void {
+  for (const link of navLinks) {
+    const text = (link.textContent ?? '').trim();
+    if (!deck) {
+      if (text === 'Study') link.href = '#/study';
+      if (text === 'Exam') link.href = '#/exam';
+      continue;
+    }
+    if (text === 'Study') link.href = `#/study/${deck.book.id}`;
+    if (text === 'Exam') link.href = `#/exam/${deck.book.id}`;
+  }
+}
+
+function setActiveBookId(bookId: string | null): void {
+  activeBookId = bookId;
+  if (bookId) {
+    localStorage.setItem(ACTIVE_BOOK_STORAGE_KEY, bookId);
+  } else {
+    localStorage.removeItem(ACTIVE_BOOK_STORAGE_KEY);
+  }
+}
+
+function currentDeck(bookId?: string): DeckContent | null {
+  if (decks.length === 0) return null;
+  if (bookId) {
+    const byRoute = decks.find((d) => d.book.id === bookId);
+    if (byRoute) {
+      setActiveBookId(byRoute.book.id);
+      return byRoute;
+    }
+  }
+  if (activeBookId) {
+    const byActive = decks.find((d) => d.book.id === activeBookId);
+    if (byActive) return byActive;
+  }
+  const first = decks[0] ?? null;
+  if (first) setActiveBookId(first.book.id);
+  return first;
+}
+
+async function loadAllDecks(): Promise<DeckContent[]> {
+  const urls = CONTENT_FILES.map(
+    (f) => `${import.meta.env.BASE_URL}content/${f}`,
+  );
+  const settled = await Promise.allSettled(urls.map((url) => loadDeckContent(url)));
+  const loaded: DeckContent[] = [];
+  const errs: string[] = [];
+  for (const r of settled) {
+    if (r.status === 'fulfilled') loaded.push(r.value);
+    else errs.push(r.reason instanceof Error ? r.reason.message : String(r.reason));
+  }
+  if (loaded.length === 0 && errs.length > 0) {
+    throw new Error(errs.join(' | '));
+  }
+  loaded.sort((a, b) => (a.book.order ?? 9999) - (b.book.order ?? 9999));
+  if (errs.length > 0) {
+    loadError = `Some decks failed to load (${errs.length}). Loaded ${loaded.length} deck(s).`;
+  }
+  return loaded;
+}
 
 function setCurrentNav(routeKind: string): void {
   for (const link of navLinks) {
@@ -29,10 +102,14 @@ function setCurrentNav(routeKind: string): void {
 
 async function renderRoute(outlet: HTMLElement, subtitle: HTMLElement): Promise<void> {
   const route = parseHashRoute();
+  const routeBookId =
+    route.kind === 'study' || route.kind === 'exam' ? route.bookId : undefined;
+  const deck = currentDeck(routeBookId);
+  updateBookScopedNavTargets(deck);
   setCurrentNav(route.kind);
   switch (route.kind) {
     case 'home':
-      renderHome(outlet, deck, loadError);
+      renderHome(outlet, decks, activeBookId, loadError);
       break;
     case 'study':
       await renderStudy(outlet, deck, loadError, route);
@@ -50,8 +127,8 @@ async function renderRoute(outlet: HTMLElement, subtitle: HTMLElement): Promise<
       renderNotFound(outlet);
   }
 
-  if (deck && !loadError) {
-    subtitle.textContent = deck.book.title;
+  if (deck) {
+    subtitle.textContent = `${deck.book.title} (${deck.chapters.length} chapters)`;
     subtitle.hidden = false;
   } else if (loadError) {
     subtitle.textContent = 'Content failed to load';
@@ -116,10 +193,12 @@ async function bootstrap(): Promise<void> {
   refresh();
 
   try {
-    deck = await loadDeckContent(CONTENT_URL);
-    loadError = null;
+    const rememberedBookId = localStorage.getItem(ACTIVE_BOOK_STORAGE_KEY);
+    setActiveBookId(rememberedBookId);
+    decks = await loadAllDecks();
+    if (!loadError) loadError = null;
   } catch (e: unknown) {
-    deck = null;
+    decks = [];
     loadError = e instanceof Error ? e.message : String(e);
   }
 
