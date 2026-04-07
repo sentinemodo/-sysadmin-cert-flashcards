@@ -33,6 +33,27 @@ First-time e2e: `npx playwright install chromium`.
 
 E2E starts preview via `node node_modules/vite/bin/vite.js` so the preview server does not depend on `npm` being on `PATH` for subprocesses (see `playwright.config.ts`).
 
+## External deploy (GitHub Pages)
+
+This repository is configured to deploy automatically to GitHub Pages on each push to `main`:
+
+- Workflow: [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)
+- Production base path: `/-sysadmin-cert-flashcards/` (configured by `BASE_PATH` in the workflow)
+- Expected site URL:
+  - [https://sentinemodo.github.io/-sysadmin-cert-flashcards/](https://sentinemodo.github.io/-sysadmin-cert-flashcards/)
+
+One-time setup in GitHub repository settings:
+
+1. Open `Settings` -> `Pages`.
+2. Under `Build and deployment`, set source to `GitHub Actions`.
+3. Push to `main` (or run the workflow manually) and wait for deploy.
+
+Verify after deployment:
+
+- `#/`, `#/study`, `#/exam`, `#/history`, `#/settings` load correctly.
+- Hard-refresh on a hash route (for example `#/study`) still works.
+- Mobile browser quick pass for study/exam actions.
+
 ## Content
 
 Deck JSON lives under `public/content/` (e.g. `maag-11-2-1.json`). The app loads `/content/maag-11-2-1.json` from [`src/main.ts`](src/main.ts) and validates with Zod in [`src/content/loadContent.ts`](src/content/loadContent.ts).
