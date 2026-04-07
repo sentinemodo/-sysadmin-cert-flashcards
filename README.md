@@ -47,6 +47,7 @@ One-time setup in GitHub repository settings:
 1. Open `Settings` -> `Pages`.
 2. Under `Build and deployment`, set source to `GitHub Actions`.
 3. Push to `main` (or run the workflow manually) and wait for deploy.
+4. Check workflow progress in the Actions tab.
 
 Verify after deployment:
 
